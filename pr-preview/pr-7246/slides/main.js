@@ -1,37 +1,33 @@
-import "../chunk-O2I33QQ2.js";
+import "../chunk-FGFPKVW2.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-N3BOSGCO.js";
+} from "../chunk-K53VUIWC.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-5LUO53YS.js";
-import "../chunk-55UMFYYO.js";
+} from "../chunk-ASUUKWLL.js";
+import "../chunk-Y274LFPF.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-TAAVBZ72.js";
-import "../chunk-GDLQKIFN.js";
-import "../chunk-VCITGCDQ.js";
+} from "../chunk-CI42JLZM.js";
+import "../chunk-VYUSG6PR.js";
+import "../chunk-4UI5G7GT.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-4OO4Y65L.js";
+} from "../chunk-7BSR2VVD.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
-  DocSelectionManagerService,
   DocSelectionRenderService,
-  DocSkeletonManagerService,
   IEditorService,
   MoveCursorOperation,
   MoveSelectionOperation,
-  RichTextEditingMutation,
-  UniverDocsPlugin,
   UniverDocsUIPlugin
-} from "../chunk-TGV5SZHH.js";
+} from "../chunk-LKQHL32Y.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -69,20 +65,25 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-RR34ERDM.js";
-import "../chunk-FNYYPRGY.js";
+} from "../chunk-L4PCTLJZ.js";
+import "../chunk-7XL7FWM6.js";
 import {
   zh_CN_default
-} from "../chunk-DWRRKEX5.js";
+} from "../chunk-NNVBFPZW.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-CPLPYTNU.js";
 import "../chunk-SNSWR7JB.js";
-import "../chunk-MNMA3DIW.js";
-import "../chunk-GNAKMJK7.js";
-import "../chunk-FGYNDRR7.js";
+import "../chunk-WDQ4UVQE.js";
+import "../chunk-R7KLXWDQ.js";
+import {
+  DocSelectionManagerService,
+  DocSkeletonManagerService,
+  RichTextEditingMutation,
+  UniverDocsPlugin
+} from "../chunk-7QDY2TDF.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-THSFYI7A.js";
+} from "../chunk-5BWHODX4.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -121,6 +122,7 @@ import {
   createIdentifier,
   createInternalEditorID,
   createParagraphId,
+  createSectionId,
   debounce_default,
   filter,
   fixLineWidthByScale,
@@ -132,7 +134,7 @@ import {
   pxToNum,
   takeUntil,
   toDisposable
-} from "../chunk-L2YDHVS3.js";
+} from "../chunk-7X4H4BYU.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -742,13 +744,10 @@ function ArrangePanel2(props) {
   const commandService = useDependency(ICommandService);
   const page = canvasView.getRenderUnitByPageId(pageId, unitId);
   const scene = page == null ? void 0 : page.scene;
-  if (!scene) return null;
-  const transformer = scene.getTransformer();
-  if (!transformer) return null;
-  const selectedObjects = transformer.getSelectedObjectMap();
-  const object = selectedObjects.values().next().value;
-  if (!object) return null;
-  const [color, setColor] = (0, import_react.useState)((_b = (_a = object.fill) == null ? void 0 : _a.toString()) != null ? _b : "");
+  const transformer = scene == null ? void 0 : scene.getTransformer();
+  const object = transformer == null ? void 0 : transformer.getSelectedObjectMap().values().next().value;
+  const [color, setColor] = (0, import_react.useState)((_b = (_a = object == null ? void 0 : object.fill) == null ? void 0 : _a.toString()) != null ? _b : "");
+  if (!scene || !transformer || !object) return null;
   function handleChangeColor(color2) {
     object == null ? void 0 : object.setProps({
       fill: color2
@@ -811,19 +810,15 @@ function TransformPanel(props) {
   const commandService = useDependency(ICommandService);
   const page = canvasView.getRenderUnitByPageId(pageId, unitId);
   const scene = page == null ? void 0 : page.scene;
-  if (!scene) return null;
-  const transformer = scene.getTransformer();
-  if (!transformer) return null;
-  const selectedObjects = transformer.getSelectedObjectMap();
-  const object = selectedObjects.values().next().value;
-  if (!object) return null;
+  const transformer = scene == null ? void 0 : scene.getTransformer();
+  const object = transformer == null ? void 0 : transformer.getSelectedObjectMap().values().next().value;
   const {
     width: originWidth = 0,
     height: originHeight = 0,
     left: originX = 0,
     top: originY = 0,
     angle: originRotation = 0
-  } = object;
+  } = object != null ? object : {};
   const [width, setWidth] = (0, import_react2.useState)(originWidth);
   const [height, setHeight] = (0, import_react2.useState)(originHeight);
   const [xPosition, setXPosition] = (0, import_react2.useState)(originX);
@@ -846,6 +841,7 @@ function TransformPanel(props) {
     setRotation(originRotation2);
   };
   (0, import_react2.useEffect)(() => {
+    if (!transformer) return;
     const changeStartSub = transformer.changeStart$.subscribe((state) => {
       changeObs(state);
     });
@@ -856,7 +852,8 @@ function TransformPanel(props) {
       changingSub.unsubscribe();
       changeStartSub.unsubscribe();
     };
-  }, []);
+  }, [transformer]);
+  if (!scene || !transformer || !object) return null;
   function handleWidthChange(val) {
     if (!val || !object) return;
     commandService.executeCommand(UpdateSlideElementOperation.id, {
@@ -1424,7 +1421,7 @@ function SlideEditorContainer() {
     }
   };
   (0, import_react3.useEffect)(() => {
-    slideEditorManagerService.state$.subscribe((param) => {
+    const subscription = slideEditorManagerService.state$.subscribe((param) => {
       if (param == null) {
         return;
       }
@@ -1454,7 +1451,8 @@ function SlideEditorContainer() {
         slideEditorManagerService.setRect({ left, top, width, height });
       }
     });
-  }, []);
+    return () => subscription.unsubscribe();
+  }, [editorService, slideEditorManagerService]);
   (0, import_react3.useEffect)(() => {
     if (!disableAutoFocus) {
       slideEditorManagerService.setFocus(true);
@@ -1487,10 +1485,7 @@ function SlideSideBar() {
   const currentSlide = univerInstanceService.getCurrentUnitOfType(3 /* UNIVER_SLIDE */);
   const pages = currentSlide == null ? void 0 : currentSlide.getPages();
   const pageOrder = currentSlide == null ? void 0 : currentSlide.getPageOrder();
-  if (!pages || !pageOrder) {
-    return null;
-  }
-  const slideList = pageOrder.map((id) => pages[id]);
+  const slideList = (0, import_react4.useMemo)(() => pages && pageOrder ? pageOrder.map((id) => pages[id]) : [], [pageOrder, pages]);
   const [activatePageId, setActivatePageId] = (0, import_react4.useState)((_b = (_a = currentSlide == null ? void 0 : currentSlide.getActivePage()) == null ? void 0 : _a.id) != null ? _b : null);
   const divRefs = (0, import_react4.useMemo)(() => slideList.map(() => (0, import_react4.createRef)()), [slideList]);
   (0, import_react4.useEffect)(() => {
@@ -1521,6 +1516,9 @@ function SlideSideBar() {
   const handleAppendSlide = (0, import_react4.useCallback)(() => {
     commandService.syncExecuteCommand(AppendSlideOperation.id, { unitId: currentSlide == null ? void 0 : currentSlide.getUnitId() });
   }, [commandService, currentSlide]);
+  if (!pages || !pageOrder) {
+    return null;
+  }
   return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
     "aside",
     {
@@ -1676,7 +1674,7 @@ SlidesUIController = __decorateClass([
 // ../packages/slides-ui/package.json
 var package_default = {
   name: "@univerjs/slides-ui",
-  version: "1.0.0-alpha.2",
+  version: "1.0.0-alpha.3",
   private: false,
   description: "Presentation editor UI layer for Univer Slides.",
   author: "DreamNum Co., Ltd. <developer@univer.ai>",
@@ -1756,13 +1754,13 @@ var package_default = {
     "@univerjs/docs-ui": "workspace:*",
     "@univerjs/drawing": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "1.20.0",
+    "@univerjs/icons": "1.23.0",
     "@univerjs/slides": "workspace:*",
     "@univerjs/ui": "workspace:*"
   },
   devDependencies: {
     "@univerjs-infra/shared": "workspace:*",
-    postcss: "^8.5.16",
+    postcss: "^8.5.19",
     react: "18.3.1",
     rxjs: "^7.8.2",
     tailwindcss: "3.4.18",
@@ -1785,18 +1783,18 @@ var import_jsx_runtime7 = __toESM(require_jsx_runtime());
 function SlideImagePopupMenu(props) {
   var _a, _b;
   const menuItems = (_b = (_a = props.popup) == null ? void 0 : _a.extraProps) == null ? void 0 : _b.menuItems;
-  if (!menuItems) {
-    return null;
-  }
   const commandService = useDependency(ICommandService);
   const localeService = useDependency(LocaleService);
   const [visible, setVisible] = (0, import_react5.useState)(false);
-  const [isHovered, setHovered] = (0, import_react5.useState)(false);
+  const [isHovered, setIsHovered] = (0, import_react5.useState)(false);
+  if (!menuItems) {
+    return null;
+  }
   const handleMouseEnter = () => {
-    setHovered(true);
+    setIsHovered(true);
   };
   const handleMouseLeave = () => {
-    setHovered(false);
+    setIsHovered(false);
   };
   const onVisibleChange = (visible2) => {
     setVisible(visible2);
@@ -2037,7 +2035,7 @@ var SlideEditorBridgeService = class extends Disposable {
           },
           startIndex: content.length + 1
         }],
-        sectionBreaks: [{ startIndex: content.length + 2 }]
+        sectionBreaks: [{ sectionId: createSectionId(/* @__PURE__ */ new Set()), startIndex: content.length + 2 }]
       },
       documentStyle: {
         marginBottom: 0,

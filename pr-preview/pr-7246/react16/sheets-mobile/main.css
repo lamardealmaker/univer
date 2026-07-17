@@ -465,6 +465,10 @@
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
 }
+.univer-my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
 .univer-my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -790,6 +794,9 @@
 }
 .univer-h-\[640px\] {
   height: 640px;
+}
+.univer-h-\[78px\] {
+  height: 78px;
 }
 .univer-h-\[calc\(100\%-16px\)\] {
   height: calc(100% - 16px);
@@ -1845,6 +1852,10 @@
 .\!univer-bg-transparent {
   background-color: transparent !important;
 }
+.univer-bg-\[\#e8eefc\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 238 252 / var(--tw-bg-opacity, 1));
+}
 .univer-bg-\[rgba\(0\,0\,0\,0\.8\)\] {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -2105,6 +2116,10 @@
 .univer-px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
+}
+.univer-px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .univer-py-0 {
   padding-top: 0px;
@@ -3602,6 +3617,12 @@
   .sm\:rtl\:\!univer-text-right:where([dir=rtl], [dir=rtl] *) {
     text-align: right !important;
   }
+}
+.dark\:\!univer-h-6:where(.univer-dark, .univer-dark *) {
+  height: 1.5rem !important;
+}
+.dark\:\!univer-h-\[78px\]:where(.univer-dark, .univer-dark *) {
+  height: 78px !important;
 }
 .dark\:\!univer-divide-gray-600:where(.univer-dark, .univer-dark *) > :not([hidden]) ~ :not([hidden]) {
   border-color: var(--univer-gray-600) !important;

@@ -1,66 +1,67 @@
-import "../chunk-RZURYMWC.js";
+import "../chunk-ZVJS7LJA.js";
 import {
   UniverVue3AdapterPlugin,
   UniverWebComponentAdapterPlugin
-} from "../chunk-HGT2X5YT.js";
-import "../chunk-VENZACBT.js";
+} from "../chunk-IAGI2AI4.js";
+import "../chunk-6ESRBAEL.js";
 import {
   en_US_default
-} from "../chunk-HQY3COVA.js";
-import "../chunk-REZ6O7M2.js";
-import "../chunk-62FTG3QU.js";
+} from "../chunk-A5GN4B6G.js";
+import "../chunk-QZTV6MCG.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-QJMC6Q37.js";
-import "../chunk-5LUO53YS.js";
-import "../chunk-55UMFYYO.js";
+} from "../chunk-QCN43IVT.js";
+import "../chunk-ASUUKWLL.js";
+import "../chunk-Y274LFPF.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO,
   loadDebuggerLocale
-} from "../chunk-TAAVBZ72.js";
-import "../chunk-IGCS6QZD.js";
-import "../chunk-WX3GX44O.js";
-import "../chunk-46GZYFAT.js";
+} from "../chunk-CI42JLZM.js";
+import "../chunk-GKS2NKCV.js";
+import "../chunk-2FPGYEZ6.js";
+import "../chunk-FANQ26OK.js";
 import {
   UniverSheetsThreadCommentPlugin
-} from "../chunk-XLUVLZ72.js";
-import "../chunk-SZC5QZIV.js";
+} from "../chunk-MRZXBYKS.js";
+import "../chunk-57CHML7Z.js";
 import {
   UniverSheetsNotePlugin,
   UniverSheetsTablePlugin
-} from "../chunk-M7LOWCOD.js";
+} from "../chunk-TSFOTNLB.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-75PA6RME.js";
+} from "../chunk-6UWY6G4O.js";
 import {
   UniverSheetsSortPlugin
-} from "../chunk-IVZBQVQ4.js";
+} from "../chunk-CYMQDOOF.js";
 import {
   UniverSheetsConditionalFormattingPlugin
-} from "../chunk-SVK7ZPPY.js";
+} from "../chunk-ANWCRG6I.js";
 import {
   UniverSheetsNumfmtPlugin
-} from "../chunk-36TEURW2.js";
-import "../chunk-EA5XJEOX.js";
-import "../chunk-GDLQKIFN.js";
+} from "../chunk-2LXWY3TI.js";
+import "../chunk-54PFHOII.js";
+import "../chunk-VYUSG6PR.js";
 import {
   UniverSheetsUIPlugin,
   whenSheetEditorFocused
-} from "../chunk-VCITGCDQ.js";
-import "../chunk-QWROOSF7.js";
+} from "../chunk-4UI5G7GT.js";
+import "../chunk-6CSUR6OU.js";
 import {
   UniverNetworkPlugin
-} from "../chunk-H42IVN7Z.js";
-import "../chunk-27A4EC2G.js";
-import "../chunk-S2KU4FZR.js";
-import "../chunk-4OO4Y65L.js";
+} from "../chunk-TNZXXRP7.js";
+import "../chunk-VJXY5Q4C.js";
+import "../chunk-HOWLSWGE.js";
 import {
-  UniverDocsPlugin,
+  getDrawingShapeKeyByDrawingSearch
+} from "../chunk-7BSR2VVD.js";
+import {
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
-} from "../chunk-TGV5SZHH.js";
+} from "../chunk-LKQHL32Y.js";
 import "../chunk-LI6UXASZ.js";
 import {
+  CanvasFloatDomService,
   FolderIcon,
   IContextMenuService,
   IMenuManagerService,
@@ -68,24 +69,25 @@ import {
   IconManager,
   UniverUIPlugin,
   require_jsx_runtime
-} from "../chunk-RR34ERDM.js";
+} from "../chunk-L4PCTLJZ.js";
 import {
   FUniver
-} from "../chunk-FNYYPRGY.js";
+} from "../chunk-7XL7FWM6.js";
 import {
   zh_CN_default
-} from "../chunk-DWRRKEX5.js";
+} from "../chunk-NNVBFPZW.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-CPLPYTNU.js";
 import "../chunk-SNSWR7JB.js";
 import {
   UniverSheetsFilterPlugin
-} from "../chunk-7ZGN2HKJ.js";
-import "../chunk-MNMA3DIW.js";
-import "../chunk-GNAKMJK7.js";
+} from "../chunk-CQ7UYAIQ.js";
+import "../chunk-WDQ4UVQE.js";
+import "../chunk-R7KLXWDQ.js";
 import {
+  UniverDocsPlugin,
   UniverSheetsFormulaPlugin
-} from "../chunk-FGYNDRR7.js";
+} from "../chunk-7QDY2TDF.js";
 import {
   ClearSelectionContentCommand,
   RemoveColByRangeCommand,
@@ -100,7 +102,7 @@ import {
   UniverRPCMainThreadPlugin,
   UniverSheetsPlugin,
   getSheetCommandTarget
-} from "../chunk-THSFYI7A.js";
+} from "../chunk-5BWHODX4.js";
 import {
   CanceledError,
   DisposableCollection,
@@ -118,7 +120,7 @@ import {
   combineLatest,
   covertCellValues,
   sequenceExecute
-} from "../chunk-L2YDHVS3.js";
+} from "../chunk-7X4H4BYU.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -144,8 +146,105 @@ var CustomRangeLoading = () => {
   };
   return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: divStyle, children: "Custom Loading..." });
 };
+var FloatDomContentBoxProbe = ({ data }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "div",
+  {
+    "data-float-dom-content-box-probe": "",
+    style: {
+      width: "100%",
+      height: "100%",
+      boxSizing: "border-box",
+      border: (data == null ? void 0 : data.border) ? "1px solid #f00" : "none",
+      background: "rgba(255, 255, 255, 0.25)"
+    }
+  }
+);
 
 // src/sheets/custom/custom-float-dom/float-dom.ts
+var FLOAT_DOM_CONTENT_BOX_FIXTURE_ID = "float-dom-content-box-probe";
+var IS_E2E = false;
+function exposeFloatDomContentBoxFixture(univer, fixture) {
+  window.floatDomContentBoxFixture = fixture;
+  univer.onDispose(() => {
+    if (window.floatDomContentBoxFixture === fixture) {
+      window.floatDomContentBoxFixture = void 0;
+    }
+  });
+}
+function installFloatDomContentBoxFixture(univer, univerAPI) {
+  if (!IS_E2E || !new URLSearchParams(window.location.search).has("float-dom-content-box")) {
+    return;
+  }
+  univerAPI.registerComponent("FloatDomContentBoxProbe", FloatDomContentBoxProbe);
+  const worksheet = univerAPI.getActiveWorkbook().getActiveSheet();
+  const disposable = worksheet.addFloatDomToPosition({
+    componentKey: "FloatDomContentBoxProbe",
+    initPosition: {
+      startX: 120,
+      startY: 100,
+      endX: 600,
+      endY: 420
+    },
+    data: { border: false },
+    allowTransform: true,
+    eventPassThrough: true
+  }, FLOAT_DOM_CONTENT_BOX_FIXTURE_ID);
+  if (!disposable) {
+    throw new Error("Failed to create FloatDom content-box e2e fixture");
+  }
+  const canvasFloatDomService = univer.__getInjector().get(CanvasFloatDomService);
+  const renderManagerService = univer.__getInjector().get(IRenderManagerService);
+  const getDrawingAndScene = () => {
+    var _a;
+    const workbook = univerAPI.getActiveWorkbook();
+    const scene = (_a = renderManagerService.getRenderById(workbook.getId())) == null ? void 0 : _a.scene;
+    const rect = scene == null ? void 0 : scene.getObject(getDrawingShapeKeyByDrawingSearch({
+      unitId: workbook.getId(),
+      subUnitId: worksheet.getSheetId(),
+      drawingId: disposable.id
+    }));
+    if (!rect || !scene) {
+      throw new Error("Failed to locate FloatDom transformer fixture");
+    }
+    return { rect, scene };
+  };
+  const fixture = {
+    id: disposable.id,
+    setContentBox: (contentBox) => canvasFloatDomService.updateFloatDom(disposable.id, { contentBox }),
+    setBorder: (border) => worksheet.updateFloatDom(disposable.id, { data: { border } }),
+    enableRotateHandle: () => {
+      var _a;
+      const { rect, scene } = getDrawingAndScene();
+      rect.transformerConfig = { ...rect.transformerConfig, rotateEnabled: true };
+      (_a = scene.getTransformerByCreate()) == null ? void 0 : _a.refreshControls();
+    },
+    getTransformerGeometry: () => {
+      const { rect, scene } = getDrawingAndScene();
+      const toGeometry = (object) => ({
+        key: object.oKey,
+        left: object.left,
+        top: object.top,
+        width: object.width,
+        height: object.height,
+        angle: object.angle
+      });
+      return {
+        drawing: toGeometry(rect),
+        controls: scene.getAllObjects().filter((object) => object.oKey.includes("__SpreadsheetTransformer")).map((object) => toGeometry(object)).sort((a, b) => a.key.localeCompare(b.key))
+      };
+    },
+    getLayout: () => {
+      var _a;
+      const layer = (_a = canvasFloatDomService.domLayers.find(([id]) => id === disposable.id)) == null ? void 0 : _a[1];
+      let layout;
+      layer == null ? void 0 : layer.position$.subscribe((value) => {
+        layout = value;
+      }).unsubscribe();
+      return layout;
+    }
+  };
+  exposeFloatDomContentBoxFixture(univer, fixture);
+}
 function insertFloatDom(univer, univerAPI) {
   univerAPI.addEvent(univerAPI.Event.LifeCycleChanged, ({ stage }) => {
     if (stage === univerAPI.Enum.LifecycleStages.Steady) {
@@ -155,6 +254,7 @@ function insertFloatDom(univer, univerAPI) {
       const fRange = fWorksheet.getRange("A1:C3");
       const disposable = fWorksheet.addFloatDomToRange(fRange, { componentKey: "CustomRangeLoading" }, {}, "myRangeLoading");
       console.warn("Float DOM", disposable);
+      installFloatDomContentBoxFixture(univer, univerAPI);
     }
   });
 }
@@ -553,7 +653,7 @@ ImportCSVButtonPlugin = __decorateClass([
 var import_csv_button_default = ImportCSVButtonPlugin;
 
 // src/sheets/main.ts
-var IS_E2E = false;
+var IS_E2E2 = false;
 var LOAD_LAZY_PLUGINS_TIMEOUT = 50;
 var LOAD_VERY_LAZY_PLUGINS_TIMEOUT = 100;
 var mockUser = {
@@ -610,7 +710,7 @@ function createNewInstance() {
     [import_csv_button_default],
     [UniverSheetsCustomShortcutPlugin]
   ]);
-  if (IS_E2E) {
+  if (IS_E2E2) {
     univer.registerPlugin(UniverDebuggerPlugin, {
       fab: false,
       fabEntryUnitType: 2 /* UNIVER_SHEET */,
@@ -623,17 +723,17 @@ function createNewInstance() {
   const injector = univer.__getInjector();
   const userManagerService = injector.get(UserManagerService);
   userManagerService.setCurrentUser(mockUser);
-  if (!IS_E2E) {
+  if (!IS_E2E2) {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-2ERSRTWP.js").then((lazy) => {
+    import("../lazy-POO6GRWM.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-YZ6V2JQB.js").then((lazy) => {
+    import("../very-lazy-6UKIX2FS.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
