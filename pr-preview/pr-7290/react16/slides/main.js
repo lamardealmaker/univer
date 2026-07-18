@@ -1,7 +1,7 @@
 import "../chunk-KSAOIZZU.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-XIVIJFFT.js";
+} from "../chunk-ONJEAIPZ.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-S37A22CF.js";
@@ -12,8 +12,8 @@ import {
   UniverSlidesPlugin,
   loadDebuggerLocale
 } from "../chunk-JPOSKCDG.js";
-import "../chunk-ZIZKR5OK.js";
-import "../chunk-XQMJNEPX.js";
+import "../chunk-Z55LZNQ5.js";
+import "../chunk-MB5EUFI3.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,

@@ -1,6 +1,6 @@
 import {
   UniverSheetsNumfmtUIPlugin
-} from "../chunk-T5UL5TBU.js";
+} from "../chunk-2CJZYI7V.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO
 } from "../chunk-JPOSKCDG.js";
@@ -9,10 +9,10 @@ import {
 } from "../chunk-UNQNW6ZH.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "../chunk-6DVCHJTL.js";
+} from "../chunk-WN5HJPPH.js";
 import {
   UniverSheetsUIPlugin
-} from "../chunk-XQMJNEPX.js";
+} from "../chunk-MB5EUFI3.js";
 import {
   UniverDocsUIPlugin
 } from "../chunk-6ANE5F2C.js";
