@@ -4,7 +4,7 @@ import {
   ThreadCommentPanelService,
   ThreadCommentTree,
   UniverThreadCommentUIPlugin
-} from "./chunk-EQFVSDJQ.js";
+} from "./chunk-E6PMOD6W.js";
 import {
   SheetsThreadCommentModel,
   UniverSheetsThreadCommentPlugin

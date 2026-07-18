@@ -10,7 +10,7 @@ import {
 import "../chunk-QZTV6MCG.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-4HSOXHRU.js";
+} from "../chunk-4CKKTA3Y.js";
 import "../chunk-3VYWMGDF.js";
 import "../chunk-EJSPDCE4.js";
 import {
@@ -727,13 +727,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-COVEBHRV.js").then((lazy) => {
+    import("../lazy-ZPPUTKX2.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-4OO3HUDY.js").then((lazy) => {
+    import("../very-lazy-AICJKGQM.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });

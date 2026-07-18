@@ -5,11 +5,11 @@ import "../chunk-PUBEVE7E.js";
 import {
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-ZBRQL6KR.js";
-import "../chunk-EQFVSDJQ.js";
+} from "../chunk-DZ4QHRTD.js";
+import "../chunk-E6PMOD6W.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-Z5EJZEKY.js";
+} from "../chunk-HUZWE7KL.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-3VYWMGDF.js";

@@ -3,7 +3,7 @@ import {
 } from "./chunk-SWD4XTTC.js";
 import {
   UniverSheetsThreadCommentUIPlugin
-} from "./chunk-KY6E2N5Q.js";
+} from "./chunk-RA3FF5NB.js";
 import {
   UniverSheetsNoteUIPlugin,
   UniverSheetsTableUIPlugin
@@ -18,7 +18,7 @@ import {
 } from "./chunk-RK3FD4G2.js";
 import {
   UniverThreadCommentUIPlugin
-} from "./chunk-EQFVSDJQ.js";
+} from "./chunk-E6PMOD6W.js";
 import "./chunk-ALK2366H.js";
 import "./chunk-U4NMQSDJ.js";
 import "./chunk-QGFBYSYZ.js";
@@ -42,7 +42,7 @@ import "./chunk-FD3JZH6D.js";
 import "./chunk-EQ2B2W73.js";
 import "./chunk-HECJ2TYE.js";
 
-// src/sheets/lazy.ts
+// src/sheets-no-worker/lazy.ts
 function getLazyPlugins() {
   return [
     [UniverDocsMentionUIPlugin],

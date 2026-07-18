@@ -61,7 +61,9 @@ import {
   getBodySlice,
   map,
   mergeOverrideWithDependencies,
-  merge_default
+  merge_default,
+  of,
+  startWith
 } from "./chunk-FD3JZH6D.js";
 import {
   __decorateClass,
@@ -727,8 +729,11 @@ var ThreadCommentTree = (props) => {
   const [editingId, setEditingId] = (0, import_react2.useState)("");
   const updte$ = (0, import_react2.useMemo)(() => threadCommentModel.commentUpdate$.pipe(debounceTime(16)), [threadCommentModel]);
   const comments = useObservable(
-    id ? () => updte$.pipe(map(() => threadCommentModel.getCommentWithChildren(unitId, subUnitId, id))) : null,
-    id ? threadCommentModel.getCommentWithChildren(unitId, subUnitId, id) : null,
+    () => id ? updte$.pipe(
+      map(() => threadCommentModel.getCommentWithChildren(unitId, subUnitId, id)),
+      startWith(threadCommentModel.getCommentWithChildren(unitId, subUnitId, id))
+    ) : of(null),
+    null,
     false,
     [id, subUnitId, threadCommentModel, unitId, updte$]
   );

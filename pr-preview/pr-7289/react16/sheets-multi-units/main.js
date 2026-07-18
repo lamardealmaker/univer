@@ -3,13 +3,13 @@ import {
 } from "../chunk-SWD4XTTC.js";
 import {
   UniverSheetsThreadCommentUIPlugin
-} from "../chunk-KY6E2N5Q.js";
+} from "../chunk-RA3FF5NB.js";
 import {
   UniverSheetsNumfmtUIPlugin
 } from "../chunk-RK3FD4G2.js";
 import {
   UniverThreadCommentUIPlugin
-} from "../chunk-EQFVSDJQ.js";
+} from "../chunk-E6PMOD6W.js";
 import "../chunk-IPEAQ25K.js";
 import "../chunk-UOGHFYE2.js";
 import "../chunk-WS4UYSC5.js";
@@ -190,7 +190,7 @@ setTimeout(() => {
   });
 }, LOAD_LAZY_PLUGINS_TIMEOUT);
 setTimeout(() => {
-  import("../very-lazy-RXINZXW4.js").then((lazy) => {
+  import("../very-lazy-N4FCV54S.js").then((lazy) => {
     const plugins = lazy.default();
     plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
   });
