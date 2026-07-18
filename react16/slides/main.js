@@ -1,24 +1,24 @@
 import "../chunk-KSAOIZZU.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-424WPZPQ.js";
+} from "../chunk-IS6LRUKB.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-S37A22CF.js";
-import "../chunk-3W2WN5WQ.js";
+import "../chunk-Y355RZLY.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-7RTTL5M4.js";
-import "../chunk-TDEZR4AB.js";
-import "../chunk-H6XIA66P.js";
+} from "../chunk-CBXCVNM7.js";
+import "../chunk-JSQU4NND.js";
+import "../chunk-W5UJVDJW.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-L6HGHUOF.js";
+} from "../chunk-TOUFNUKR.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -27,7 +27,7 @@ import {
   MoveCursorOperation,
   MoveSelectionOperation,
   UniverDocsUIPlugin
-} from "../chunk-IKDOVPVV.js";
+} from "../chunk-JGKDNRCW.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -80,10 +80,10 @@ import {
   DocSkeletonManagerService,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-KOL7QAKS.js";
+} from "../chunk-JHNQBJPZ.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-VPYMURTI.js";
+} from "../chunk-ALOYUQOY.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
