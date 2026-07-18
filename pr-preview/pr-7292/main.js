@@ -5,10 +5,10 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-IQMWKPZP.js";
+} from "./chunk-IJ3IXJZK.js";
 import {
   default_default
-} from "./chunk-FD3JZH6D.js";
+} from "./chunk-KDL4XP5H.js";
 import "./chunk-EQ2B2W73.js";
 import {
   __toESM
@@ -220,11 +220,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "1a9f8f9",
+    GIT_COMMIT_HASH: "fc6c461",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "feat/cross-workbook-formula-references",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-18T15:08:19.364Z"
+    BUILD_TIME: "2026-07-18T16:06:21.125Z"
   });
 }
 function DemoList({ items }) {
