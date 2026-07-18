@@ -1,24 +1,24 @@
-import "../chunk-ENLR4DU4.js";
+import "../chunk-PUBEVE7E.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-NYMO34SE.js";
+} from "../chunk-HIZGRD7R.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-NMCCDXDM.js";
-import "../chunk-3SKDT2VP.js";
+} from "../chunk-3VYWMGDF.js";
+import "../chunk-EJSPDCE4.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-ZXMSVVYU.js";
-import "../chunk-5P2XEI2X.js";
-import "../chunk-2Q6NNA3D.js";
+} from "../chunk-5P62HQWY.js";
+import "../chunk-FVR3T2BW.js";
+import "../chunk-FRPQKBYL.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-VCMLRY5N.js";
+} from "../chunk-XHUWJPWL.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -27,7 +27,7 @@ import {
   MoveCursorOperation,
   MoveSelectionOperation,
   UniverDocsUIPlugin
-} from "../chunk-47ZALXF7.js";
+} from "../chunk-I5GDLIYL.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -65,8 +65,8 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-7TPDZYFV.js";
-import "../chunk-4RBST3WM.js";
+} from "../chunk-XZJWC6FO.js";
+import "../chunk-IGNDEM5L.js";
 import {
   zh_CN_default
 } from "../chunk-BRWVMUDH.js";
@@ -80,10 +80,10 @@ import {
   DocSkeletonManagerService,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-BYQPA3KP.js";
+} from "../chunk-N7S5VYEO.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-OGAOIOI3.js";
+} from "../chunk-Z4IK4AV3.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -132,9 +132,10 @@ import {
   mergeOverrideWithDependencies,
   merge_default,
   pxToNum,
+  scan,
   takeUntil,
   toDisposable
-} from "../chunk-K5ELNLYF.js";
+} from "../chunk-FD3JZH6D.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -1482,22 +1483,28 @@ function SlideSideBar() {
   const renderManagerService = useDependency(IRenderManagerService);
   const localeService = useDependency(LocaleService);
   const slideBarRef = (0, import_react4.useRef)(null);
-  const currentSlide = univerInstanceService.getCurrentUnitOfType(3 /* UNIVER_SLIDE */);
+  const currentSlide = useObservable(
+    () => univerInstanceService.getCurrentTypeOfUnit$(3 /* UNIVER_SLIDE */),
+    void 0,
+    false,
+    [univerInstanceService]
+  );
   const pages = currentSlide == null ? void 0 : currentSlide.getPages();
   const pageOrder = currentSlide == null ? void 0 : currentSlide.getPageOrder();
   const slideList = (0, import_react4.useMemo)(() => pages && pageOrder ? pageOrder.map((id) => pages[id]) : [], [pageOrder, pages]);
-  const [activatePageId, setActivatePageId] = (0, import_react4.useState)((_b = (_a = currentSlide == null ? void 0 : currentSlide.getActivePage()) == null ? void 0 : _a.id) != null ? _b : null);
+  const initialActivePageId = (_b = (_a = currentSlide == null ? void 0 : currentSlide.getActivePage()) == null ? void 0 : _a.id) != null ? _b : null;
+  const activatePageId = useObservable(
+    currentSlide ? () => currentSlide.activePage$.pipe(
+      scan((previousId, page) => {
+        var _a2;
+        return (_a2 = page == null ? void 0 : page.id) != null ? _a2 : previousId;
+      }, initialActivePageId)
+    ) : null,
+    initialActivePageId,
+    false,
+    [currentSlide, initialActivePageId]
+  );
   const divRefs = (0, import_react4.useMemo)(() => slideList.map(() => (0, import_react4.createRef)()), [slideList]);
-  (0, import_react4.useEffect)(() => {
-    const subscriber = currentSlide == null ? void 0 : currentSlide.activePage$.subscribe((page) => {
-      var _a2;
-      const id = (_a2 = page == null ? void 0 : page.id) != null ? _a2 : null;
-      id && setActivatePageId(id);
-    });
-    return () => {
-      subscriber == null ? void 0 : subscriber.unsubscribe();
-    };
-  }, []);
   (0, import_react4.useEffect)(() => {
     divRefs.forEach((ref, index) => {
       var _a2;
