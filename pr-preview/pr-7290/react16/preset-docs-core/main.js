@@ -2,26 +2,26 @@ import {
   UniverDocsHyperLinkPlugin,
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-SKVRSYT2.js";
+} from "../chunk-B2NC6SEO.js";
 import {
   UniverThreadCommentUIPlugin
-} from "../chunk-GMHQV23Q.js";
+} from "../chunk-AMDCK2K3.js";
 import {
   createUniver
 } from "../chunk-SZ343T2R.js";
 import {
   UniverDocsDrawingUIPlugin
-} from "../chunk-HZOMVSPU.js";
+} from "../chunk-ARO2QXZJ.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE
-} from "../chunk-JPOSKCDG.js";
+} from "../chunk-4JEVOHNN.js";
 import "../chunk-2XSYQGHN.js";
 import {
   UniverNetworkPlugin
 } from "../chunk-T5HH4QJX.js";
 import {
   FDocument
-} from "../chunk-W2VXLVNG.js";
+} from "../chunk-7PV6YKUO.js";
 import "../chunk-XNZBNOKE.js";
 import {
   DRAWING_IMAGE_HEIGHT_LIMIT,
@@ -37,14 +37,14 @@ import {
   UpdateDrawingDocTransformCommand,
   WRAPPING_STYLE_TO_LAYOUT_TYPE,
   getImageSize
-} from "../chunk-YNGIMNN2.js";
+} from "../chunk-YPYMQJUV.js";
 import {
   UniverDocsUIPlugin
-} from "../chunk-6ANE5F2C.js";
+} from "../chunk-7LULJTMH.js";
 import "../chunk-LI6UXASZ.js";
 import {
   UniverUIPlugin
-} from "../chunk-UEXZFSJ7.js";
+} from "../chunk-TMTWLXFR.js";
 import {
   FEnum
 } from "../chunk-HV3EXX75.js";
