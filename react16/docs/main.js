@@ -1,35 +1,35 @@
 import {
   UniverDocsMentionUIPlugin
-} from "../chunk-SWD4XTTC.js";
+} from "../chunk-443HEYGB.js";
 import "../chunk-PUBEVE7E.js";
 import {
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-DZ4QHRTD.js";
-import "../chunk-E6PMOD6W.js";
+} from "../chunk-53ZAZKGT.js";
+import "../chunk-LXGRZLER.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-JPJAVUVU.js";
+} from "../chunk-67GEZJKK.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-3VYWMGDF.js";
 import {
   InsertDocImageCommand,
   UniverDocsDrawingUIPlugin
-} from "../chunk-EJSPDCE4.js";
+} from "../chunk-OJI4IYJX.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE,
   loadDebuggerLocale
-} from "../chunk-5P62HQWY.js";
-import "../chunk-FVR3T2BW.js";
-import "../chunk-FRPQKBYL.js";
-import "../chunk-LPV6WBRX.js";
+} from "../chunk-LUTQ4ESN.js";
+import "../chunk-6ACXN3IF.js";
+import "../chunk-JWYUVLZU.js";
+import "../chunk-AYIHCCXE.js";
 import "../chunk-GBMWEQ3Y.js";
 import {
   UniverDocsDrawingPlugin,
   UniverDrawingPlugin,
   UniverDrawingUIPlugin
-} from "../chunk-XHUWJPWL.js";
+} from "../chunk-4PDAPJGR.js";
 import {
   BulletListCommand,
   CutContentCommand,
@@ -44,7 +44,7 @@ import {
   OrderListCommand,
   UniverDocsUIPlugin,
   getAnchorBounding
-} from "../chunk-I5GDLIYL.js";
+} from "../chunk-QUM3JBTX.js";
 import "../chunk-LI6UXASZ.js";
 import {
   ComponentManager,
@@ -65,15 +65,15 @@ import {
   useDependency,
   useEvent,
   useObservable
-} from "../chunk-XZJWC6FO.js";
+} from "../chunk-IQMWKPZP.js";
 import {
   FUniver
 } from "../chunk-IGNDEM5L.js";
 import {
   zh_CN_default
-} from "../chunk-BRWVMUDH.js";
+} from "../chunk-IXB2EBEC.js";
 import "../chunk-DBRQB4K6.js";
-import "../chunk-CPLPYTNU.js";
+import "../chunk-L6MCIUQR.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-JXXTLVNI.js";
 import "../chunk-R7KLXWDQ.js";
@@ -1074,7 +1074,7 @@ var package_default = {
     "@univerjs/drawing": "workspace:*",
     "@univerjs/drawing-ui": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "1.24.0",
+    "@univerjs/icons": "1.25.0",
     "@univerjs/ui": "workspace:*"
   },
   devDependencies: {
