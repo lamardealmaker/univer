@@ -1,24 +1,24 @@
-import "../chunk-ZTTQ3WBA.js";
+import "../chunk-SMBG774K.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-4GIRV5UN.js";
+} from "../chunk-57CTUDZG.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-W5UHK77D.js";
-import "../chunk-6LQQTHPJ.js";
+} from "../chunk-TV5IZDL2.js";
+import "../chunk-V32GPT4L.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-YW4SQCWM.js";
-import "../chunk-XC7VZYVD.js";
-import "../chunk-BMXSIPEW.js";
+} from "../chunk-2KLHKDEV.js";
+import "../chunk-ADAHA7HX.js";
+import "../chunk-T5RVU3KX.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-WWXZNS2Y.js";
+} from "../chunk-T6XN4F5H.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -27,7 +27,7 @@ import {
   MoveCursorOperation,
   MoveSelectionOperation,
   UniverDocsUIPlugin
-} from "../chunk-ZFXRHBTR.js";
+} from "../chunk-5X5VM2J5.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -65,8 +65,8 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-O5REJQTM.js";
-import "../chunk-NHWHHRSS.js";
+} from "../chunk-EZPYXFOP.js";
+import "../chunk-RRZXYRJ4.js";
 import {
   zh_CN_default
 } from "../chunk-NNVBFPZW.js";
@@ -80,10 +80,10 @@ import {
   DocSkeletonManagerService,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-IM332U3Z.js";
+} from "../chunk-7T2XFBQ7.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-YR3EBCJL.js";
+} from "../chunk-6EUTIKVY.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -134,7 +134,7 @@ import {
   pxToNum,
   takeUntil,
   toDisposable
-} from "../chunk-LWQF5CC6.js";
+} from "../chunk-YZCASKU5.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
