@@ -1,16 +1,16 @@
-import "../chunk-TNBEQ35K.js";
-import "../chunk-7NACA6H4.js";
+import "../chunk-7EYKURGK.js";
+import "../chunk-JWWZUKSI.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-RCQGWHQO.js";
+} from "../chunk-GL5NNXG4.js";
 import "../chunk-7IDNIRUE.js";
-import "../chunk-ZOBIR5L5.js";
+import "../chunk-BJTPK55E.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO,
   loadDebuggerLocale
-} from "../chunk-PAVHGAWO.js";
-import "../chunk-NYLPHXQF.js";
-import "../chunk-RP3BUAW6.js";
+} from "../chunk-QN4VIF6W.js";
+import "../chunk-QUB7XSCA.js";
+import "../chunk-K4B7SHQF.js";
 import "../chunk-JLTH7EOP.js";
 import {
   UniverSheetsThreadCommentPlugin
@@ -22,7 +22,7 @@ import {
 } from "../chunk-QW5YEHOK.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-EZICGTPO.js";
+} from "../chunk-UHBSKVII.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-OD5JULIN.js";
@@ -32,11 +32,11 @@ import {
 import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-632LMC3G.js";
-import "../chunk-TGDQGA5B.js";
-import "../chunk-4VAHIW5W.js";
+import "../chunk-MXTSIRXO.js";
+import "../chunk-PFT6QV62.js";
 import {
   UniverSheetsUIPlugin
-} from "../chunk-WUWUYCW5.js";
+} from "../chunk-ROGKLWAB.js";
 import "../chunk-N4TURAIF.js";
 import {
   UniverNetworkPlugin
@@ -46,7 +46,7 @@ import "../chunk-IXEHVME3.js";
 import {
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
-} from "../chunk-S6XGWHVM.js";
+} from "../chunk-SVPNNYBX.js";
 import "../chunk-LI6UXASZ.js";
 import {
   UniverUIPlugin
@@ -145,13 +145,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-5QLOQLMI.js").then((lazy) => {
+    import("../lazy-OIH7SR4E.js").then((lazy) => {
       const plugins = lazy.default();
       plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-4K6ZGZ3Q.js").then((lazy) => {
+    import("../very-lazy-T24XRALT.js").then((lazy) => {
       const plugins = lazy.default();
       plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
     });
