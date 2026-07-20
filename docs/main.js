@@ -9,7 +9,7 @@ import {
 import "../chunk-ANMTCZKV.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-VNCY2OR3.js";
+} from "../chunk-SLYOGEPZ.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-S37A22CF.js";
