@@ -1,24 +1,24 @@
 import "../chunk-7R5W75XE.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-ZZQW26FW.js";
+} from "../chunk-2ZB535OQ.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-SXJ7DER7.js";
-import "../chunk-3EPZEXMY.js";
+import "../chunk-34VPJMTS.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-2RXPX2SH.js";
-import "../chunk-A4MVUHOM.js";
-import "../chunk-RX3KVBNS.js";
+} from "../chunk-KO3JQG5O.js";
+import "../chunk-CWGA7BJN.js";
+import "../chunk-325W4XHZ.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-G5LZZDCW.js";
+} from "../chunk-37CCQPTR.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -27,7 +27,7 @@ import {
   MoveCursorOperation,
   MoveSelectionOperation,
   UniverDocsUIPlugin
-} from "../chunk-OOPSYHJ4.js";
+} from "../chunk-PXJRBH6Q.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
