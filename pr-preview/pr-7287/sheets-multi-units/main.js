@@ -1,18 +1,18 @@
 import {
   UniverDocsMentionUIPlugin
-} from "../chunk-2JSK2VPT.js";
+} from "../chunk-QVQJJTWC.js";
 import {
   UniverSheetsThreadCommentUIPlugin
-} from "../chunk-NAVXKMPI.js";
+} from "../chunk-RZFA7XTI.js";
 import {
   UniverSheetsNumfmtUIPlugin
-} from "../chunk-5ICEQOD7.js";
+} from "../chunk-RNTOVMW6.js";
 import {
   UniverThreadCommentUIPlugin
-} from "../chunk-V6M5UXZ2.js";
-import "../chunk-4NTK6WUF.js";
-import "../chunk-DORWGTDJ.js";
-import "../chunk-XUC35ZCM.js";
+} from "../chunk-Y3TN24SH.js";
+import "../chunk-TNBEQ35K.js";
+import "../chunk-7NACA6H4.js";
+import "../chunk-RP3BUAW6.js";
 import "../chunk-JLTH7EOP.js";
 import {
   UniverSheetsThreadCommentPlugin
@@ -20,7 +20,7 @@ import {
 import "../chunk-SKX7OZPQ.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-S6CHBRCY.js";
+} from "../chunk-EZICGTPO.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-OD5JULIN.js";
@@ -32,17 +32,17 @@ import {
 } from "../chunk-632LMC3G.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "../chunk-OAMAUPJX.js";
-import "../chunk-IBCIDPS3.js";
+} from "../chunk-TGDQGA5B.js";
+import "../chunk-4VAHIW5W.js";
 import {
   UniverSheetsUIPlugin
-} from "../chunk-7LDHFNZ4.js";
+} from "../chunk-WUWUYCW5.js";
 import "../chunk-5NCOLTUO.js";
 import "../chunk-IXEHVME3.js";
 import {
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
-} from "../chunk-W72J2EQD.js";
+} from "../chunk-S6XGWHVM.js";
 import "../chunk-LI6UXASZ.js";
 import {
   UniverUIPlugin,
@@ -184,13 +184,13 @@ var injector = univer.__getInjector();
 var userManagerService = injector.get(UserManagerService);
 userManagerService.setCurrentUser(mockUser);
 setTimeout(() => {
-  import("../lazy-5WWTJE35.js").then((lazy) => {
+  import("../lazy-5RA3K2GD.js").then((lazy) => {
     const plugins = lazy.default();
     plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
   });
 }, LOAD_LAZY_PLUGINS_TIMEOUT);
 setTimeout(() => {
-  import("../very-lazy-BDT4JOIR.js").then((lazy) => {
+  import("../very-lazy-T32GSFMQ.js").then((lazy) => {
     const plugins = lazy.default();
     plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
   });
