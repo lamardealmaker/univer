@@ -12,7 +12,7 @@ import {
 } from "./chunk-VODNEUIZ.js";
 import {
   UniverDebuggerPlugin
-} from "./chunk-4AMO52PV.js";
+} from "./chunk-RBEHPCXR.js";
 import {
   UniverWatermarkPlugin
 } from "./chunk-7IDNIRUE.js";
