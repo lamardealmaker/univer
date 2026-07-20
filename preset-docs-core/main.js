@@ -2,27 +2,27 @@ import {
   UniverDocsHyperLinkPlugin,
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-3FKYEDJU.js";
+} from "../chunk-EY4GFOTQ.js";
 import {
   UniverThreadCommentUIPlugin
-} from "../chunk-A6ONLSWS.js";
+} from "../chunk-HAOYYA4I.js";
 import {
   createUniver
-} from "../chunk-SZ343T2R.js";
+} from "../chunk-KIVY3HJ7.js";
 import {
   UniverDocsDrawingUIPlugin
-} from "../chunk-3AG7QDDQ.js";
+} from "../chunk-ZK5CQEQA.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE
-} from "../chunk-UKM2FYDE.js";
-import "../chunk-2XSYQGHN.js";
+} from "../chunk-FBNBT237.js";
+import "../chunk-CEZJUUND.js";
 import {
   UniverNetworkPlugin
-} from "../chunk-T5HH4QJX.js";
+} from "../chunk-ICLRI4VA.js";
 import {
   FDocument
-} from "../chunk-OM5UL7DK.js";
-import "../chunk-XNZBNOKE.js";
+} from "../chunk-UCXPWFC4.js";
+import "../chunk-Q76RBTRB.js";
 import {
   DRAWING_IMAGE_HEIGHT_LIMIT,
   DRAWING_IMAGE_WIDTH_LIMIT,
@@ -37,17 +37,17 @@ import {
   UpdateDrawingDocTransformCommand,
   WRAPPING_STYLE_TO_LAYOUT_TYPE,
   getImageSize
-} from "../chunk-Y5G2OXH6.js";
+} from "../chunk-44FRZNN5.js";
 import {
   UniverDocsUIPlugin
-} from "../chunk-HC4V5NKS.js";
+} from "../chunk-BMGP4575.js";
 import "../chunk-LI6UXASZ.js";
 import {
   UniverUIPlugin
-} from "../chunk-N3KJJFOF.js";
+} from "../chunk-H6XSKLCW.js";
 import {
   FEnum
-} from "../chunk-HV3EXX75.js";
+} from "../chunk-IKCA4G7J.js";
 import {
   zh_CN_default as zh_CN_default2,
   zh_CN_default2 as zh_CN_default3,
@@ -66,10 +66,10 @@ import {
   UniverDocsPlugin,
   buildDocTransform,
   docDrawingPositionToTransform
-} from "../chunk-JHNQBJPZ.js";
+} from "../chunk-BVJL2XEK.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-ALOYUQOY.js";
+} from "../chunk-B6QBU7G3.js";
 import {
   ICommandService,
   IImageIoService,
@@ -80,7 +80,7 @@ import {
   default_default,
   generateRandomId,
   mergeLocales
-} from "../chunk-KDL4XP5H.js";
+} from "../chunk-I7JVIHX5.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __publicField
