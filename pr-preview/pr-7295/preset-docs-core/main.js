@@ -2,26 +2,26 @@ import {
   UniverDocsHyperLinkPlugin,
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-XSEIHX7M.js";
+} from "../chunk-QS2KVJMF.js";
 import {
   UniverThreadCommentUIPlugin
-} from "../chunk-JHJ3FCN2.js";
+} from "../chunk-UCUQSRMB.js";
 import {
   createUniver
 } from "../chunk-SV2IGJBB.js";
 import {
   UniverDocsDrawingUIPlugin
-} from "../chunk-ZAUJO4VF.js";
+} from "../chunk-CEOF6PB5.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE
-} from "../chunk-6QWBIRYQ.js";
+} from "../chunk-X7V6F4W2.js";
 import "../chunk-D32HWUDS.js";
 import {
   UniverNetworkPlugin
 } from "../chunk-TPIHRZCJ.js";
 import {
   FDocument
-} from "../chunk-D3B56PHH.js";
+} from "../chunk-GD7J3W4B.js";
 import "../chunk-GBMWEQ3Y.js";
 import {
   DRAWING_IMAGE_HEIGHT_LIMIT,
@@ -40,7 +40,7 @@ import {
 } from "../chunk-4FEUQSM7.js";
 import {
   UniverDocsUIPlugin
-} from "../chunk-UAOUR7EN.js";
+} from "../chunk-JUFLCNL6.js";
 import "../chunk-LI6UXASZ.js";
 import {
   UniverUIPlugin
