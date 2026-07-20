@@ -5,10 +5,10 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-H6XSKLCW.js";
+} from "./chunk-7ML65O4Y.js";
 import {
   default_default
-} from "./chunk-I7JVIHX5.js";
+} from "./chunk-KCBSKUX4.js";
 import "./chunk-EQ2B2W73.js";
 import {
   __toESM
@@ -220,11 +220,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "1fb69c0",
+    GIT_COMMIT_HASH: "acc82a8",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "dev",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-20T10:17:09.585Z"
+    BUILD_TIME: "2026-07-20T11:05:26.415Z"
   });
 }
 function DemoList({ items }) {
