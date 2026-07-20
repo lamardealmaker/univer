@@ -1,24 +1,24 @@
-import "../chunk-7R5W75XE.js";
+import "../chunk-KUA43V45.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-2ZB535OQ.js";
+} from "../chunk-4AMO52PV.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-SXJ7DER7.js";
-import "../chunk-34VPJMTS.js";
+} from "../chunk-7IDNIRUE.js";
+import "../chunk-5DBTCA3N.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-KO3JQG5O.js";
-import "../chunk-CWGA7BJN.js";
-import "../chunk-325W4XHZ.js";
+} from "../chunk-SO5SEQ72.js";
+import "../chunk-53PQQWQ4.js";
+import "../chunk-RCZUQOBI.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-37CCQPTR.js";
+} from "../chunk-IXEHVME3.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -27,7 +27,7 @@ import {
   MoveCursorOperation,
   MoveSelectionOperation,
   UniverDocsUIPlugin
-} from "../chunk-PXJRBH6Q.js";
+} from "../chunk-HLQJAOWY.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -65,25 +65,25 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-QR4IXNRE.js";
-import "../chunk-4FQ7KZJX.js";
+} from "../chunk-HOJE6KZL.js";
+import "../chunk-VMX56H2F.js";
 import {
   zh_CN_default
-} from "../chunk-NNVBFPZW.js";
+} from "../chunk-HXG6F4GC.js";
 import "../chunk-DBRQB4K6.js";
-import "../chunk-CPLPYTNU.js";
+import "../chunk-NUA2Z7NC.js";
 import "../chunk-SNSWR7JB.js";
-import "../chunk-WDQ4UVQE.js";
+import "../chunk-RT67ICL6.js";
 import "../chunk-R7KLXWDQ.js";
 import {
   DocSelectionManagerService,
   DocSkeletonManagerService,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-JYVQTEKH.js";
+} from "../chunk-XAJLTAUM.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-CSXRQ456.js";
+} from "../chunk-6OBE5I5L.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -132,9 +132,10 @@ import {
   mergeOverrideWithDependencies,
   merge_default,
   pxToNum,
+  scan,
   takeUntil,
   toDisposable
-} from "../chunk-EIUQN72C.js";
+} from "../chunk-RJIFU6SG.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -1482,22 +1483,28 @@ function SlideSideBar() {
   const renderManagerService = useDependency(IRenderManagerService);
   const localeService = useDependency(LocaleService);
   const slideBarRef = (0, import_react4.useRef)(null);
-  const currentSlide = univerInstanceService.getCurrentUnitOfType(3 /* UNIVER_SLIDE */);
+  const currentSlide = useObservable(
+    () => univerInstanceService.getCurrentTypeOfUnit$(3 /* UNIVER_SLIDE */),
+    void 0,
+    false,
+    [univerInstanceService]
+  );
   const pages = currentSlide == null ? void 0 : currentSlide.getPages();
   const pageOrder = currentSlide == null ? void 0 : currentSlide.getPageOrder();
   const slideList = (0, import_react4.useMemo)(() => pages && pageOrder ? pageOrder.map((id) => pages[id]) : [], [pageOrder, pages]);
-  const [activatePageId, setActivatePageId] = (0, import_react4.useState)((_b = (_a = currentSlide == null ? void 0 : currentSlide.getActivePage()) == null ? void 0 : _a.id) != null ? _b : null);
+  const initialActivePageId = (_b = (_a = currentSlide == null ? void 0 : currentSlide.getActivePage()) == null ? void 0 : _a.id) != null ? _b : null;
+  const activatePageId = useObservable(
+    currentSlide ? () => currentSlide.activePage$.pipe(
+      scan((previousId, page) => {
+        var _a2;
+        return (_a2 = page == null ? void 0 : page.id) != null ? _a2 : previousId;
+      }, initialActivePageId)
+    ) : null,
+    initialActivePageId,
+    false,
+    [currentSlide, initialActivePageId]
+  );
   const divRefs = (0, import_react4.useMemo)(() => slideList.map(() => (0, import_react4.createRef)()), [slideList]);
-  (0, import_react4.useEffect)(() => {
-    const subscriber = currentSlide == null ? void 0 : currentSlide.activePage$.subscribe((page) => {
-      var _a2;
-      const id = (_a2 = page == null ? void 0 : page.id) != null ? _a2 : null;
-      id && setActivatePageId(id);
-    });
-    return () => {
-      subscriber == null ? void 0 : subscriber.unsubscribe();
-    };
-  }, []);
   (0, import_react4.useEffect)(() => {
     divRefs.forEach((ref, index) => {
       var _a2;
@@ -1754,7 +1761,7 @@ var package_default = {
     "@univerjs/docs-ui": "workspace:*",
     "@univerjs/drawing": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "1.23.0",
+    "@univerjs/icons": "1.29.0",
     "@univerjs/slides": "workspace:*",
     "@univerjs/ui": "workspace:*"
   },
