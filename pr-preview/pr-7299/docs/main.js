@@ -1,35 +1,35 @@
 import {
   UniverDocsMentionUIPlugin
-} from "../chunk-7A6SNAA4.js";
+} from "../chunk-TQZSPXY4.js";
 import "../chunk-YW23SAHM.js";
 import {
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-ZZDGEVGD.js";
-import "../chunk-O3YLY23X.js";
+} from "../chunk-55B2ETMH.js";
+import "../chunk-3GKLVJ2E.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-Z6FQQWQO.js";
+} from "../chunk-CQ5MML4F.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-JOZWZ4BM.js";
 import {
   InsertDocImageCommand,
   UniverDocsDrawingUIPlugin
-} from "../chunk-RKRSIKMW.js";
+} from "../chunk-BHSRXA5N.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE,
   loadDebuggerLocale
-} from "../chunk-JUALPVCB.js";
-import "../chunk-TXONSSOW.js";
-import "../chunk-GC5TIPZA.js";
-import "../chunk-547FKRP4.js";
+} from "../chunk-ZT2LWEMD.js";
+import "../chunk-Q3OLG6W5.js";
+import "../chunk-RLLRRRGG.js";
+import "../chunk-KE5LB26U.js";
 import "../chunk-JIG7REER.js";
 import {
   UniverDocsDrawingPlugin,
   UniverDrawingPlugin,
   UniverDrawingUIPlugin
-} from "../chunk-HHFW36YX.js";
+} from "../chunk-RR7Q7XGK.js";
 import {
   BulletListCommand,
   CutContentCommand,
@@ -44,7 +44,7 @@ import {
   OrderListCommand,
   UniverDocsUIPlugin,
   getAnchorBounding
-} from "../chunk-GV7BDRSR.js";
+} from "../chunk-GPIGWJPB.js";
 import "../chunk-LI6UXASZ.js";
 import {
   ComponentManager,
@@ -65,18 +65,18 @@ import {
   useDependency,
   useEvent,
   useObservable
-} from "../chunk-USNZHLNV.js";
+} from "../chunk-VEOKQKQZ.js";
 import {
   FUniver
 } from "../chunk-ZPHG2RB6.js";
 import {
   zh_CN_default
-} from "../chunk-HXG6F4GC.js";
+} from "../chunk-TDLXI56F.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-NUA2Z7NC.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-RT67ICL6.js";
-import "../chunk-R7KLXWDQ.js";
+import "../chunk-6E3W7VDH.js";
 import {
   DeleteTextCommand,
   DocSelectionManagerService,
@@ -1074,7 +1074,7 @@ var package_default = {
     "@univerjs/drawing": "workspace:*",
     "@univerjs/drawing-ui": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "1.31.0",
+    "@univerjs/icons": "1.32.0",
     "@univerjs/ui": "workspace:*"
   },
   devDependencies: {

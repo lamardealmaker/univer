@@ -5,7 +5,7 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-USNZHLNV.js";
+} from "./chunk-VEOKQKQZ.js";
 import {
   default_default
 } from "./chunk-7UDGGJR5.js";
@@ -220,11 +220,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "0279931",
+    GIT_COMMIT_HASH: "d5a74e8",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "feat/ribbon-grid",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-20T13:08:19.101Z"
+    BUILD_TIME: "2026-07-21T04:27:27.445Z"
   });
 }
 function DemoList({ items }) {

@@ -1290,6 +1290,9 @@
 .univer-max-h-\[180px\] {
   max-height: 180px;
 }
+.univer-max-h-\[300px\] {
+  max-height: 300px;
+}
 .univer-max-h-\[310px\] {
   max-height: 310px;
 }
@@ -3489,6 +3492,9 @@
 .univer-ease-out {
   animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
+.\[scroll-padding-block\:4px\] {
+  scroll-padding-block: 4px;
+}
 .placeholder\:univer-text-gray-200::placeholder {
   color: var(--univer-gray-200);
 }
@@ -3580,6 +3586,9 @@
 .univer-group:hover .group-hover\:univer-bg-gray-500 {
   background-color: var(--univer-gray-500);
 }
+.data-\[disabled\=true\]\:univer-pointer-events-none[data-disabled=true] {
+  pointer-events: none;
+}
 .data-\[disabled\]\:univer-pointer-events-none[data-disabled] {
   pointer-events: none;
 }
@@ -3595,11 +3604,17 @@
 .data-\[orientation\=vertical\]\:univer-w-px[data-orientation=vertical] {
   width: 1px;
 }
+.data-\[selected\=true\]\:univer-bg-gray-100[data-selected=true] {
+  background-color: var(--univer-gray-100);
+}
 .data-\[state\=open\]\:univer-bg-gray-100[data-state=open] {
   background-color: var(--univer-gray-100);
 }
 .data-\[variant\=destructive\]\:univer-text-red-600[data-variant=destructive] {
   color: var(--univer-red-600);
+}
+.data-\[disabled\=true\]\:univer-opacity-50[data-disabled=true] {
+  opacity: 0.5;
 }
 .data-\[disabled\]\:univer-opacity-50[data-disabled] {
   opacity: 0.5;
@@ -4302,6 +4317,9 @@
 .univer-group:hover .dark\:group-hover\:\!univer-bg-gray-300:where(.univer-dark, .univer-dark *) {
   background-color: var(--univer-gray-300) !important;
 }
+.dark\:data-\[selected\=true\]\:\!univer-bg-gray-600[data-selected=true]:where(.univer-dark, .univer-dark *) {
+  background-color: var(--univer-gray-600) !important;
+}
 .dark\:data-\[state\=open\]\:\!univer-bg-gray-600[data-state=open]:where(.univer-dark, .univer-dark *) {
   background-color: var(--univer-gray-600) !important;
 }
@@ -4527,6 +4545,9 @@
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+.\[\&\>svg\]\:univer-text-gray-400 > svg {
+  color: var(--univer-gray-400);
+}
 .\[\&\>svg\]\:univer-text-gray-700 > svg {
   color: var(--univer-gray-700);
 }
@@ -4618,6 +4639,24 @@
 }
 .\[\&_\.univer-tooltip\]\:univer-items-center .univer-tooltip {
   align-items: center;
+}
+.\[\&_\[cmdk-group-heading\]\]\:univer-px-2 [cmdk-group-heading] {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.\[\&_\[cmdk-group-heading\]\]\:univer-py-1\.5 [cmdk-group-heading] {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+.\[\&_\[cmdk-group-heading\]\]\:univer-text-xs [cmdk-group-heading] {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.\[\&_\[cmdk-group-heading\]\]\:univer-font-medium [cmdk-group-heading] {
+  font-weight: 500;
+}
+.\[\&_\[cmdk-group-heading\]\]\:univer-text-gray-500 [cmdk-group-heading] {
+  color: var(--univer-gray-500);
 }
 .\[\&_\[data-description\]\]\:univer-text-sm [data-description] {
   font-size: 0.875rem;
