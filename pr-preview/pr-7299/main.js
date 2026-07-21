@@ -5,10 +5,10 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-VEOKQKQZ.js";
+} from "./chunk-2FSEQWPD.js";
 import {
   default_default
-} from "./chunk-7UDGGJR5.js";
+} from "./chunk-UO46IVZK.js";
 import "./chunk-EQ2B2W73.js";
 import {
   __toESM
@@ -220,11 +220,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "d5a74e8",
+    GIT_COMMIT_HASH: "4d8ff7c",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "feat/ribbon-grid",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-21T04:27:27.445Z"
+    BUILD_TIME: "2026-07-21T09:04:29.178Z"
   });
 }
 function DemoList({ items }) {

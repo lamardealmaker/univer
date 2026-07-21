@@ -1,35 +1,35 @@
 import {
   UniverDocsMentionUIPlugin
-} from "../chunk-TQZSPXY4.js";
-import "../chunk-YW23SAHM.js";
+} from "../chunk-JL6E2HV2.js";
+import "../chunk-SI7YOIO7.js";
 import {
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-55B2ETMH.js";
-import "../chunk-3GKLVJ2E.js";
+} from "../chunk-JWCLMV4N.js";
+import "../chunk-ZNA7KSNR.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-EUKHI4MZ.js";
+} from "../chunk-S5P3QTQQ.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-JOZWZ4BM.js";
+} from "../chunk-DLEFKCGJ.js";
 import {
   InsertDocImageCommand,
   UniverDocsDrawingUIPlugin
-} from "../chunk-BHSRXA5N.js";
+} from "../chunk-GDHHZCLI.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE,
   loadDebuggerLocale
-} from "../chunk-ZT2LWEMD.js";
-import "../chunk-Q3OLG6W5.js";
-import "../chunk-RLLRRRGG.js";
-import "../chunk-KE5LB26U.js";
-import "../chunk-JIG7REER.js";
+} from "../chunk-4K6WKZAD.js";
+import "../chunk-GYVSFUCF.js";
+import "../chunk-S4XLBRHG.js";
+import "../chunk-HAJT7RB7.js";
+import "../chunk-T6KH2DAX.js";
 import {
   UniverDocsDrawingPlugin,
   UniverDrawingPlugin,
   UniverDrawingUIPlugin
-} from "../chunk-RR7Q7XGK.js";
+} from "../chunk-6MWSYICV.js";
 import {
   BulletListCommand,
   CutContentCommand,
@@ -44,7 +44,7 @@ import {
   OrderListCommand,
   UniverDocsUIPlugin,
   getAnchorBounding
-} from "../chunk-GPIGWJPB.js";
+} from "../chunk-JSPE2R2S.js";
 import "../chunk-LI6UXASZ.js";
 import {
   ComponentManager,
@@ -65,10 +65,10 @@ import {
   useDependency,
   useEvent,
   useObservable
-} from "../chunk-VEOKQKQZ.js";
+} from "../chunk-2FSEQWPD.js";
 import {
   FUniver
-} from "../chunk-ZPHG2RB6.js";
+} from "../chunk-TIJU4SVQ.js";
 import {
   zh_CN_default
 } from "../chunk-TDLXI56F.js";
@@ -84,10 +84,10 @@ import {
   InsertTextCommand,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-3L7AA2MQ.js";
+} from "../chunk-PIYGBPYI.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-S2JHE4EK.js";
+} from "../chunk-7FJVVP7M.js";
 import {
   BehaviorSubject,
   DependentOn,
@@ -113,7 +113,7 @@ import {
   ptToPixel,
   tap,
   toDisposable
-} from "../chunk-7UDGGJR5.js";
+} from "../chunk-UO46IVZK.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
