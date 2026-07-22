@@ -12,7 +12,7 @@ import {
 } from "../chunk-UIILGY57.js";
 import "../chunk-HXM6FVWC.js";
 import "../chunk-NJMGFXJA.js";
-import "../chunk-FYPY66SD.js";
+import "../chunk-PCQ2TJRG.js";
 import "../chunk-WRQCPDX6.js";
 import {
   UniverSheetsThreadCommentPlugin
@@ -190,7 +190,7 @@ setTimeout(() => {
   });
 }, LOAD_LAZY_PLUGINS_TIMEOUT);
 setTimeout(() => {
-  import("../very-lazy-Y6GWJSGD.js").then((lazy) => {
+  import("../very-lazy-LASSNRS4.js").then((lazy) => {
     const plugins = lazy.default();
     plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
   });
