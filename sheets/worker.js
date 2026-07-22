@@ -11,7 +11,7 @@ import "../chunk-3BTKBUIM.js";
 import "../chunk-6E3W7VDH.js";
 import {
   UniverRemoteSheetsFormulaPlugin
-} from "../chunk-GC6NIMO6.js";
+} from "../chunk-W2IE7XAE.js";
 import {
   UniverFormulaEnginePlugin,
   UniverRPCWorkerThreadPlugin,

@@ -1,24 +1,24 @@
-import "../chunk-HXM6FVWC.js";
+import "../chunk-URSGHU6H.js";
 import {
   UniverVue3AdapterPlugin,
   UniverWebComponentAdapterPlugin
 } from "../chunk-3JUSZUCY.js";
-import "../chunk-NJMGFXJA.js";
+import "../chunk-IITUWZSX.js";
 import {
   en_US_default
 } from "../chunk-BVH4ERCT.js";
 import "../chunk-SBXFG3S4.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-52MBW722.js";
+} from "../chunk-SZSRZ27R.js";
 import "../chunk-SDR46FT5.js";
-import "../chunk-VSRJGQ4N.js";
+import "../chunk-DR7EZ5B4.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO,
   loadDebuggerLocale
-} from "../chunk-J4N6JNOG.js";
-import "../chunk-2SEM3BQA.js";
-import "../chunk-PCQ2TJRG.js";
+} from "../chunk-6MMQXC5F.js";
+import "../chunk-HZ4C3CDI.js";
+import "../chunk-OE2Q2IS3.js";
 import "../chunk-WRQCPDX6.js";
 import {
   UniverSheetsThreadCommentPlugin
@@ -30,7 +30,7 @@ import {
 } from "../chunk-72IJ6NGE.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-PZIWC45M.js";
+} from "../chunk-WA7NHIML.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-VUOFGFFP.js";
@@ -40,25 +40,25 @@ import {
 import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-BXZYRREU.js";
-import "../chunk-NNBYBS6M.js";
-import "../chunk-HIOGFRM4.js";
+import "../chunk-WMJOI7QH.js";
+import "../chunk-YRKMWVU6.js";
 import {
   UniverSheetsUIPlugin,
   whenSheetEditorFocused
-} from "../chunk-Z5HOA35Q.js";
+} from "../chunk-R5ONU2Q2.js";
 import "../chunk-EDU3U37W.js";
 import {
   UniverNetworkPlugin
 } from "../chunk-YGHFFUED.js";
-import "../chunk-JFIP6YNB.js";
+import "../chunk-KBQQ6362.js";
 import "../chunk-YGGGAOOO.js";
 import {
   getDrawingShapeKeyByDrawingSearch
-} from "../chunk-HEIKB7AI.js";
+} from "../chunk-EEVABD7L.js";
 import {
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
-} from "../chunk-36HE7BQM.js";
+} from "../chunk-MEZUJHUE.js";
 import "../chunk-LI6UXASZ.js";
 import {
   CanvasFloatDomService,
@@ -87,7 +87,7 @@ import "../chunk-6E3W7VDH.js";
 import {
   UniverDocsPlugin,
   UniverSheetsFormulaPlugin
-} from "../chunk-GC6NIMO6.js";
+} from "../chunk-W2IE7XAE.js";
 import {
   ClearSelectionContentCommand,
   RemoveColByRangeCommand,
@@ -728,13 +728,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-7O2HCXJQ.js").then((lazy) => {
+    import("../lazy-33BDAM3T.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-DO7TQ733.js").then((lazy) => {
+    import("../very-lazy-ZSHXLVB4.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });

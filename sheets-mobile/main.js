@@ -2,27 +2,27 @@ import {
   UniverSheetsConditionalFormattingMobileUIPlugin,
   UniverSheetsDataValidationMobileUIPlugin,
   UniverSheetsFilterMobileUIPlugin
-} from "../chunk-53MSZNYN.js";
+} from "../chunk-S6RX5R5L.js";
 import {
   UniverSheetsNumfmtUIPlugin
-} from "../chunk-5KRVSNID.js";
+} from "../chunk-HAFEJOJ6.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO
-} from "../chunk-J4N6JNOG.js";
+} from "../chunk-6MMQXC5F.js";
 import "../chunk-XKR5IN3B.js";
 import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-BXZYRREU.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "../chunk-NNBYBS6M.js";
+} from "../chunk-WMJOI7QH.js";
 import {
   UniverSheetsMobileUIPlugin
-} from "../chunk-Z5HOA35Q.js";
+} from "../chunk-R5ONU2Q2.js";
 import {
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
-} from "../chunk-36HE7BQM.js";
+} from "../chunk-MEZUJHUE.js";
 import "../chunk-LI6UXASZ.js";
 import {
   UniverMobileUIPlugin
@@ -41,7 +41,7 @@ import "../chunk-6E3W7VDH.js";
 import {
   UniverDocsPlugin,
   UniverSheetsFormulaPlugin
-} from "../chunk-GC6NIMO6.js";
+} from "../chunk-W2IE7XAE.js";
 import {
   UniverFormulaEnginePlugin,
   UniverRPCMainThreadPlugin,
