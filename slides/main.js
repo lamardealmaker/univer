@@ -1,24 +1,24 @@
-import "../chunk-K3LILT2Q.js";
+import "../chunk-KYFUEC3O.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-SKTS44VG.js";
+} from "../chunk-64VAGUTD.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-BZ2QPXPM.js";
-import "../chunk-BFQF3HPV.js";
+} from "../chunk-ERYW5I4D.js";
+import "../chunk-QIOLARSJ.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-GS5EJQL7.js";
-import "../chunk-V63XZ5XN.js";
-import "../chunk-KS6WXDEM.js";
+} from "../chunk-GC7WOAPH.js";
+import "../chunk-WLSA7ODV.js";
+import "../chunk-V72LHEPZ.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-NCPGOBBL.js";
+} from "../chunk-2JTXL7DQ.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -27,7 +27,7 @@ import {
   MoveCursorOperation,
   MoveSelectionOperation,
   UniverDocsUIPlugin
-} from "../chunk-BEQH3R6D.js";
+} from "../chunk-2EIRHLET.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -65,8 +65,8 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-4CX7GQL6.js";
-import "../chunk-3ZBE4CU5.js";
+} from "../chunk-AOFVIMMN.js";
+import "../chunk-YSU2RKN3.js";
 import {
   zh_CN_default
 } from "../chunk-HXG6F4GC.js";
@@ -80,10 +80,10 @@ import {
   DocSkeletonManagerService,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-OMRVEMWW.js";
+} from "../chunk-LMPX2OTW.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-62P57WM5.js";
+} from "../chunk-RKDQK3XP.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -135,7 +135,7 @@ import {
   scan,
   takeUntil,
   toDisposable
-} from "../chunk-6QPW3C4R.js";
+} from "../chunk-7RPG6EBZ.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -1681,7 +1681,7 @@ SlidesUIController = __decorateClass([
 // ../packages/slides-ui/package.json
 var package_default = {
   name: "@univerjs/slides-ui",
-  version: "1.0.0-alpha.5",
+  version: "1.0.0-alpha.6",
   private: false,
   description: "Presentation editor UI layer for Univer Slides.",
   author: "DreamNum Co., Ltd. <developer@univer.ai>",
