@@ -1,24 +1,24 @@
-import "../chunk-UIZYWZKV.js";
+import "../chunk-BIMW5S7K.js";
 import {
   UniverVue3AdapterPlugin,
   UniverWebComponentAdapterPlugin
 } from "../chunk-FXZBMECO.js";
-import "../chunk-JMNOMDHM.js";
+import "../chunk-SI5ELRFA.js";
 import {
   en_US_default
 } from "../chunk-T74CMK5X.js";
 import "../chunk-QZTV6MCG.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-E2Z3XSUN.js";
+} from "../chunk-QEERBKVP.js";
 import "../chunk-ERYW5I4D.js";
 import "../chunk-QIOLARSJ.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO,
   loadDebuggerLocale
 } from "../chunk-GC7WOAPH.js";
-import "../chunk-C33NYXJW.js";
-import "../chunk-ZAT4XURN.js";
+import "../chunk-4LEX7URG.js";
+import "../chunk-2J4YSIPI.js";
 import "../chunk-GBZVZSXD.js";
 import {
   UniverSheetsThreadCommentPlugin
@@ -30,7 +30,7 @@ import {
 } from "../chunk-LNCQ2IGD.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-ETMR3AZ4.js";
+} from "../chunk-YKP4BCDG.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-HZVVG4ZG.js";
@@ -40,12 +40,12 @@ import {
 import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-YMY6PXSP.js";
-import "../chunk-U3KKUEI6.js";
-import "../chunk-WLSA7ODV.js";
+import "../chunk-LLBM76KA.js";
+import "../chunk-LSB7NQWY.js";
 import {
   UniverSheetsUIPlugin,
   whenSheetEditorFocused
-} from "../chunk-V72LHEPZ.js";
+} from "../chunk-UBVKEMWY.js";
 import "../chunk-D3YC3R4D.js";
 import {
   UniverNetworkPlugin
@@ -727,13 +727,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-BYU4NMRB.js").then((lazy) => {
+    import("../lazy-5RD35BPN.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-E2SIX4RY.js").then((lazy) => {
+    import("../very-lazy-PQBUZ76Y.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
