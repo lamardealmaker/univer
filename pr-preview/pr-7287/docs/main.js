@@ -1,35 +1,35 @@
 import {
   UniverDocsMentionUIPlugin
-} from "../chunk-N27VRXE2.js";
-import "../chunk-TEKIPTTX.js";
+} from "../chunk-3LJGNC7G.js";
+import "../chunk-BYQ72R5U.js";
 import {
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-KFL7K42P.js";
-import "../chunk-J6BJIQI7.js";
+} from "../chunk-UH3PTL5I.js";
+import "../chunk-IOPGM32D.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-LGH5SI7X.js";
+} from "../chunk-TCUBO7JU.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-N5ZEZC7X.js";
+} from "../chunk-VD4AIXIW.js";
 import {
   InsertDocImageCommand,
   UniverDocsDrawingUIPlugin
-} from "../chunk-GMPJW3LL.js";
+} from "../chunk-ULVYB5AG.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE,
   loadDebuggerLocale
-} from "../chunk-GSKGT27H.js";
-import "../chunk-ICLA44LH.js";
-import "../chunk-JNYE2C6C.js";
-import "../chunk-FVB7YPJM.js";
-import "../chunk-FIIBSXWG.js";
+} from "../chunk-W2IPK4JO.js";
+import "../chunk-VAVZOLQ5.js";
+import "../chunk-4W5TOARO.js";
+import "../chunk-KXMMDJM5.js";
+import "../chunk-OSWEEDUS.js";
 import {
   UniverDocsDrawingPlugin,
   UniverDrawingPlugin,
   UniverDrawingUIPlugin
-} from "../chunk-I5IWKWLY.js";
+} from "../chunk-WLGHV6AH.js";
 import {
   BulletListCommand,
   CutContentCommand,
@@ -44,7 +44,7 @@ import {
   OrderListCommand,
   UniverDocsUIPlugin,
   getAnchorBounding
-} from "../chunk-LZ43PMWX.js";
+} from "../chunk-2XISZNLI.js";
 import "../chunk-LI6UXASZ.js";
 import {
   ComponentManager,
@@ -65,18 +65,18 @@ import {
   useDependency,
   useEvent,
   useObservable
-} from "../chunk-MEQYGXDL.js";
+} from "../chunk-6AM74UQX.js";
 import {
   FUniver
-} from "../chunk-KOO7MV2Y.js";
+} from "../chunk-3WIXW4B2.js";
 import {
   zh_CN_default
-} from "../chunk-HXG6F4GC.js";
+} from "../chunk-TDLXI56F.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-NUA2Z7NC.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-RT67ICL6.js";
-import "../chunk-R7KLXWDQ.js";
+import "../chunk-6E3W7VDH.js";
 import {
   DeleteTextCommand,
   DocSelectionManagerService,
@@ -84,10 +84,10 @@ import {
   InsertTextCommand,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-XOVZ3ENV.js";
+} from "../chunk-BCAS46ZI.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-ON7MQNKU.js";
+} from "../chunk-CFJENZU7.js";
 import {
   BehaviorSubject,
   DependentOn,
@@ -113,7 +113,7 @@ import {
   ptToPixel,
   tap,
   toDisposable
-} from "../chunk-V7YB6CU5.js";
+} from "../chunk-QO3C2C2Z.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -991,7 +991,7 @@ DocQuickInsertUIController = __decorateClass([
 // ../packages/docs-quick-insert-ui/package.json
 var package_default = {
   name: "@univerjs/docs-quick-insert-ui",
-  version: "1.0.0-alpha.3",
+  version: "1.0.0-alpha.6",
   private: false,
   description: "Quick insert UI integration for Univer Docs.",
   author: "DreamNum Co., Ltd. <developer@univer.ai>",
@@ -1074,7 +1074,7 @@ var package_default = {
     "@univerjs/drawing": "workspace:*",
     "@univerjs/drawing-ui": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "1.29.0",
+    "@univerjs/icons": "1.32.0",
     "@univerjs/ui": "workspace:*"
   },
   devDependencies: {
@@ -1307,7 +1307,7 @@ univer.registerPlugin(UniverRenderEnginePlugin);
 univer.registerPlugin(UniverFormulaEnginePlugin);
 univer.registerPlugin(UniverUIPlugin, {
   container: "app",
-  ribbonType: "classic"
+  ribbonType: "grid"
 });
 univer.registerPlugin(UniverDocsPlugin);
 univer.registerPlugin(UniverDocsUIPlugin, {

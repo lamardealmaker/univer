@@ -1,24 +1,24 @@
-import "../chunk-TEKIPTTX.js";
+import "../chunk-BYQ72R5U.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-SWJXJXKH.js";
+} from "../chunk-LSVZMZUE.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-N5ZEZC7X.js";
-import "../chunk-GMPJW3LL.js";
+} from "../chunk-VD4AIXIW.js";
+import "../chunk-ULVYB5AG.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-GSKGT27H.js";
-import "../chunk-ICLA44LH.js";
-import "../chunk-JNYE2C6C.js";
+} from "../chunk-W2IPK4JO.js";
+import "../chunk-VAVZOLQ5.js";
+import "../chunk-4W5TOARO.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-I5IWKWLY.js";
+} from "../chunk-WLGHV6AH.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -27,7 +27,7 @@ import {
   MoveCursorOperation,
   MoveSelectionOperation,
   UniverDocsUIPlugin
-} from "../chunk-LZ43PMWX.js";
+} from "../chunk-2XISZNLI.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -65,25 +65,25 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-MEQYGXDL.js";
-import "../chunk-KOO7MV2Y.js";
+} from "../chunk-6AM74UQX.js";
+import "../chunk-3WIXW4B2.js";
 import {
   zh_CN_default
-} from "../chunk-HXG6F4GC.js";
+} from "../chunk-TDLXI56F.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-NUA2Z7NC.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-RT67ICL6.js";
-import "../chunk-R7KLXWDQ.js";
+import "../chunk-6E3W7VDH.js";
 import {
   DocSelectionManagerService,
   DocSkeletonManagerService,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-XOVZ3ENV.js";
+} from "../chunk-BCAS46ZI.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-ON7MQNKU.js";
+} from "../chunk-CFJENZU7.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -135,7 +135,7 @@ import {
   scan,
   takeUntil,
   toDisposable
-} from "../chunk-V7YB6CU5.js";
+} from "../chunk-QO3C2C2Z.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -1310,10 +1310,12 @@ var menuSchema = {
   ["ribbon.start.format" /* FORMAT */]: {
     [SlideAddTextCommand.id]: {
       order: 0,
+      gridLayout: { row: 1, column: 1, rowSpan: 2, showLabel: true },
       menuItemFactory: SlideAddTextMenuItemFactory
     },
     [SLIDES_IMAGE_MENU_ID]: {
       order: 0,
+      gridLayout: { row: 1, column: 2, rowSpan: 2, showLabel: true },
       menuItemFactory: SlideImageMenuFactory,
       [InsertSlideFloatImageCommand.id]: {
         order: 0,
@@ -1322,6 +1324,7 @@ var menuSchema = {
     },
     [SHAPE_MENU_ID]: {
       order: 0,
+      gridLayout: { row: 1, column: 3, rowSpan: 2, showLabel: true },
       menuItemFactory: SlideShapeMenuFactory,
       [InsertSlideShapeRectangleCommand.id]: {
         order: 0,
@@ -1681,7 +1684,7 @@ SlidesUIController = __decorateClass([
 // ../packages/slides-ui/package.json
 var package_default = {
   name: "@univerjs/slides-ui",
-  version: "1.0.0-alpha.3",
+  version: "1.0.0-alpha.6",
   private: false,
   description: "Presentation editor UI layer for Univer Slides.",
   author: "DreamNum Co., Ltd. <developer@univer.ai>",
@@ -1761,7 +1764,7 @@ var package_default = {
     "@univerjs/docs-ui": "workspace:*",
     "@univerjs/drawing": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "1.29.0",
+    "@univerjs/icons": "1.32.0",
     "@univerjs/slides": "workspace:*",
     "@univerjs/ui": "workspace:*"
   },
@@ -3185,7 +3188,7 @@ var univer = new Univer({
 univer.registerPlugin(UniverRenderEnginePlugin);
 univer.registerPlugin(UniverUIPlugin, {
   container: "app",
-  ribbonType: "classic"
+  ribbonType: "grid"
 });
 univer.registerPlugin(UniverDocsPlugin);
 univer.registerPlugin(UniverDocsUIPlugin);

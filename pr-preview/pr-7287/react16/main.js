@@ -5,10 +5,10 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-MEQYGXDL.js";
+} from "./chunk-6AM74UQX.js";
 import {
   default_default
-} from "./chunk-V7YB6CU5.js";
+} from "./chunk-QO3C2C2Z.js";
 import "./chunk-EQ2B2W73.js";
 import {
   __toESM
@@ -21,7 +21,7 @@ var import_react = __toESM(require_react(), 1);
 var package_default = {
   name: "univer",
   type: "module",
-  version: "1.0.0-alpha.3",
+  version: "1.0.0-alpha.6",
   private: true,
   packageManager: "pnpm@10.33.4",
   author: "DreamNum Co., Ltd. <developer@univer.ai>",
@@ -226,11 +226,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "8bd2811",
+    GIT_COMMIT_HASH: "ecc64bf",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "feat/docs-layout-regressions",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-22T13:44:59.515Z"
+    BUILD_TIME: "2026-07-22T14:17:26.645Z"
   });
 }
 function DemoList({ items }) {
