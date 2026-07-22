@@ -1,7 +1,7 @@
 import "../chunk-KYFUEC3O.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-64VAGUTD.js";
+} from "../chunk-FOSJH356.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-ERYW5I4D.js";
