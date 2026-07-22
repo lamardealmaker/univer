@@ -2,27 +2,27 @@ import {
   UniverDocsHyperLinkPlugin,
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-2KCEB2JJ.js";
+} from "../chunk-YGCXRUS3.js";
 import {
   UniverThreadCommentUIPlugin
-} from "../chunk-PLOU6QE7.js";
+} from "../chunk-IQBBNL5T.js";
 import {
   createUniver
-} from "../chunk-KJD4R2DQ.js";
+} from "../chunk-DDGKQNUW.js";
 import {
   UniverDocsDrawingUIPlugin
-} from "../chunk-QIOLARSJ.js";
+} from "../chunk-YCGAOLBU.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE
-} from "../chunk-GC7WOAPH.js";
-import "../chunk-D3YC3R4D.js";
+} from "../chunk-5QITRLLT.js";
+import "../chunk-HG4ERB2L.js";
 import {
   UniverNetworkPlugin
-} from "../chunk-E3WWKG6P.js";
+} from "../chunk-PHGWEDHE.js";
 import {
   FDocument
-} from "../chunk-P76G5Z2Z.js";
-import "../chunk-TCDGYH2B.js";
+} from "../chunk-NQNHUMG3.js";
+import "../chunk-ZKWWW5P3.js";
 import {
   DRAWING_IMAGE_HEIGHT_LIMIT,
   DRAWING_IMAGE_WIDTH_LIMIT,
@@ -37,17 +37,17 @@ import {
   UpdateDrawingDocTransformCommand,
   WRAPPING_STYLE_TO_LAYOUT_TYPE,
   getImageSize
-} from "../chunk-2JTXL7DQ.js";
+} from "../chunk-TM7KTVMI.js";
 import {
   UniverDocsUIPlugin
-} from "../chunk-2EIRHLET.js";
+} from "../chunk-7WKE7NN5.js";
 import "../chunk-LI6UXASZ.js";
 import {
   UniverUIPlugin
-} from "../chunk-AOFVIMMN.js";
+} from "../chunk-4TZYBZA3.js";
 import {
   FEnum
-} from "../chunk-YSU2RKN3.js";
+} from "../chunk-QECJTCNJ.js";
 import {
   zh_CN_default as zh_CN_default2,
   zh_CN_default2 as zh_CN_default3,
@@ -61,15 +61,15 @@ import {
   zh_CN_default,
   zh_CN_default2 as zh_CN_default5,
   zh_CN_default3 as zh_CN_default8
-} from "../chunk-R7KLXWDQ.js";
+} from "../chunk-6E3W7VDH.js";
 import {
   UniverDocsPlugin,
   buildDocTransform,
   docDrawingPositionToTransform
-} from "../chunk-LMPX2OTW.js";
+} from "../chunk-FTAZ6D2Q.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-RKDQK3XP.js";
+} from "../chunk-HTWP7ETG.js";
 import {
   ICommandService,
   IImageIoService,
@@ -80,7 +80,7 @@ import {
   default_default,
   generateRandomId,
   mergeLocales
-} from "../chunk-7RPG6EBZ.js";
+} from "../chunk-HO2OWOV7.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __publicField
