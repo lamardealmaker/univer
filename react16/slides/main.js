@@ -1,24 +1,24 @@
-import "../chunk-TEHDASM3.js";
+import "../chunk-L7VYT2JP.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-XJ3AXIN7.js";
+} from "../chunk-RCSLBJSK.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-SDR46FT5.js";
-import "../chunk-ZMWLLNTC.js";
+} from "../chunk-TMFDKMIG.js";
+import "../chunk-545MSGXF.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-VFO3RGN6.js";
-import "../chunk-BLJKDDIV.js";
-import "../chunk-VWB4YFLH.js";
+} from "../chunk-N2JGUKS5.js";
+import "../chunk-XGIRKLWT.js";
+import "../chunk-UWJKF6PE.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-LJDSQID3.js";
+} from "../chunk-UT72HRUS.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -27,7 +27,7 @@ import {
   MoveCursorOperation,
   MoveSelectionOperation,
   UniverDocsUIPlugin
-} from "../chunk-IGM2PDFK.js";
+} from "../chunk-33WBVZUA.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -65,8 +65,8 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-5ZVYOOOJ.js";
-import "../chunk-VAYUBKAG.js";
+} from "../chunk-P2DA4KTU.js";
+import "../chunk-WRYXDTJA.js";
 import {
   zh_CN_default
 } from "../chunk-ATLWNXMT.js";
@@ -80,10 +80,10 @@ import {
   DocSkeletonManagerService,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-W2IE7XAE.js";
+} from "../chunk-3T2J7QKX.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-FV4IGQDG.js";
+} from "../chunk-BPQHTQJ4.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -135,7 +135,7 @@ import {
   scan,
   takeUntil,
   toDisposable
-} from "../chunk-N4BCF5MH.js";
+} from "../chunk-SAVY66LP.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -1764,7 +1764,7 @@ var package_default = {
     "@univerjs/docs-ui": "workspace:*",
     "@univerjs/drawing": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "1.32.0",
+    "@univerjs/icons": "1.33.0",
     "@univerjs/slides": "workspace:*",
     "@univerjs/ui": "workspace:*"
   },

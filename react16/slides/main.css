@@ -2037,10 +2037,6 @@
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-.univer-py-3\.5 {
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
-}
 .univer-py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -3913,10 +3909,6 @@
 .\[\&\>svg\]\:univer-size-4 > svg {
   width: 1rem;
   height: 1rem;
-}
-.\[\&\>svg\]\:univer-size-5 > svg {
-  width: 1.25rem;
-  height: 1.25rem;
 }
 .\[\&\>svg\]\:univer-size-8 > svg {
   width: 2rem;
@@ -6598,10 +6590,6 @@
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-.univer-py-3\.5 {
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
-}
 .univer-py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -8474,10 +8462,6 @@
 .\[\&\>svg\]\:univer-size-4 > svg {
   width: 1rem;
   height: 1rem;
-}
-.\[\&\>svg\]\:univer-size-5 > svg {
-  width: 1.25rem;
-  height: 1.25rem;
 }
 .\[\&\>svg\]\:univer-size-8 > svg {
   width: 2rem;
