@@ -1,24 +1,24 @@
-import "../chunk-L7VYT2JP.js";
+import "../chunk-XSTOKXDW.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-HAXM5ZUJ.js";
+} from "../chunk-AMQA2Q76.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-TMFDKMIG.js";
-import "../chunk-545MSGXF.js";
+} from "../chunk-L6DUULAW.js";
+import "../chunk-I6HSR4RY.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-N2JGUKS5.js";
-import "../chunk-XGIRKLWT.js";
-import "../chunk-UWJKF6PE.js";
+} from "../chunk-SKIEW3ZJ.js";
+import "../chunk-L5N6EK44.js";
+import "../chunk-ORNCECME.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-UT72HRUS.js";
+} from "../chunk-K3ZG63JY.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -27,7 +27,7 @@ import {
   MoveCursorOperation,
   MoveSelectionOperation,
   UniverDocsUIPlugin
-} from "../chunk-33WBVZUA.js";
+} from "../chunk-NDLZPOUP.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -65,25 +65,25 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-P2DA4KTU.js";
-import "../chunk-WRYXDTJA.js";
+} from "../chunk-ISCJ2R73.js";
+import "../chunk-AOGYP6JO.js";
 import {
   zh_CN_default
-} from "../chunk-ATLWNXMT.js";
+} from "../chunk-4QJTZQOR.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-NUA2Z7NC.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-3BTKBUIM.js";
-import "../chunk-6E3W7VDH.js";
+import "../chunk-W7SCD2GT.js";
 import {
   DocSelectionManagerService,
   DocSkeletonManagerService,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-3T2J7QKX.js";
+} from "../chunk-QDZX4RLS.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-BPQHTQJ4.js";
+} from "../chunk-XFNITGGT.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -135,7 +135,7 @@ import {
   scan,
   takeUntil,
   toDisposable
-} from "../chunk-SAVY66LP.js";
+} from "../chunk-JAWHQSZK.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -1764,7 +1764,7 @@ var package_default = {
     "@univerjs/docs-ui": "workspace:*",
     "@univerjs/drawing": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "1.33.0",
+    "@univerjs/icons": "1.34.0",
     "@univerjs/slides": "workspace:*",
     "@univerjs/ui": "workspace:*"
   },
