@@ -308,8 +308,12 @@ var UnitDrawingService = class {
         return;
       }
       param.transform = updateParam.transform;
-      param.transforms = updateParam.transforms;
-      param.isMultiTransform = updateParam.isMultiTransform;
+      if (Object.hasOwn(updateParam, "transforms")) {
+        param.transforms = updateParam.transforms;
+      }
+      if (Object.hasOwn(updateParam, "isMultiTransform")) {
+        param.isMultiTransform = updateParam.isMultiTransform;
+      }
       if ("behindText" in updateParam) {
         param.behindText = updateParam.behindText;
       }

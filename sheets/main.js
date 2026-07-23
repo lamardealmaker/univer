@@ -10,15 +10,15 @@ import {
 import "../chunk-SBXFG3S4.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-AOAXQHOW.js";
+} from "../chunk-LXZQHUZR.js";
 import "../chunk-TMFDKMIG.js";
-import "../chunk-545MSGXF.js";
+import "../chunk-JFLLGYDO.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO,
   loadDebuggerLocale
 } from "../chunk-N2JGUKS5.js";
 import "../chunk-OKFFRBRI.js";
-import "../chunk-623NCYPL.js";
+import "../chunk-H7HMBVOM.js";
 import "../chunk-WGU3KKR3.js";
 import {
   UniverSheetsThreadCommentPlugin
@@ -41,7 +41,7 @@ import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-JS5QLNPA.js";
 import "../chunk-YYYIVYNZ.js";
-import "../chunk-XGIRKLWT.js";
+import "../chunk-MLBJYD4O.js";
 import {
   UniverSheetsUIPlugin,
   whenSheetEditorFocused
@@ -54,7 +54,7 @@ import "../chunk-WG7E2PYP.js";
 import "../chunk-4JVBNTL3.js";
 import {
   getDrawingShapeKeyByDrawingSearch
-} from "../chunk-UT72HRUS.js";
+} from "../chunk-SX5LSMRV.js";
 import {
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
@@ -728,13 +728,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-SU2F5U5Z.js").then((lazy) => {
+    import("../lazy-BWLHOZKT.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-QAWSO2CU.js").then((lazy) => {
+    import("../very-lazy-7UYH5PPU.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
