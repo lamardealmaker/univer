@@ -12,7 +12,7 @@ import {
 } from "./chunk-JR5GKLZ4.js";
 import {
   UniverDebuggerPlugin
-} from "./chunk-MMWF7XHW.js";
+} from "./chunk-PJX47B6Z.js";
 import {
   UniverWatermarkPlugin
 } from "./chunk-DBJ5WYJ5.js";
@@ -38,7 +38,7 @@ import "./chunk-RLTCIETE.js";
 import "./chunk-EQ2B2W73.js";
 import "./chunk-HECJ2TYE.js";
 
-// src/sheets-multi-units/very-lazy.ts
+// src/sheets/very-lazy.ts
 var IS_E2E = false;
 function getVeryLazyPlugins() {
   const plugins = [
