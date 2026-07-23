@@ -1,35 +1,35 @@
 import {
   UniverDocsMentionUIPlugin
-} from "../chunk-UODWRB53.js";
-import "../chunk-L7VYT2JP.js";
+} from "../chunk-5VSJ53WH.js";
+import "../chunk-XSTOKXDW.js";
 import {
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-F3UQ2HB3.js";
-import "../chunk-Q575LJY5.js";
+} from "../chunk-YEQ23AJK.js";
+import "../chunk-NFTG6TUX.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-NJ3HP7US.js";
+} from "../chunk-WIEEKDBM.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-TMFDKMIG.js";
+} from "../chunk-L6DUULAW.js";
 import {
   InsertDocImageCommand,
   UniverDocsDrawingUIPlugin
-} from "../chunk-JFLLGYDO.js";
+} from "../chunk-7RRG232U.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE,
   loadDebuggerLocale
-} from "../chunk-N2JGUKS5.js";
-import "../chunk-MLBJYD4O.js";
-import "../chunk-UWJKF6PE.js";
-import "../chunk-WG7E2PYP.js";
-import "../chunk-4JVBNTL3.js";
+} from "../chunk-OLFC366I.js";
+import "../chunk-FZRUTRIY.js";
+import "../chunk-GE5ZFGQN.js";
+import "../chunk-WTDDY4SE.js";
+import "../chunk-NG3XLTNK.js";
 import {
   UniverDocsDrawingPlugin,
   UniverDrawingPlugin,
   UniverDrawingUIPlugin
-} from "../chunk-SX5LSMRV.js";
+} from "../chunk-7NQHI6ZF.js";
 import {
   BulletListCommand,
   CutContentCommand,
@@ -44,7 +44,7 @@ import {
   OrderListCommand,
   UniverDocsUIPlugin,
   getAnchorBounding
-} from "../chunk-33WBVZUA.js";
+} from "../chunk-BJHPWHFO.js";
 import "../chunk-LI6UXASZ.js";
 import {
   ComponentManager,
@@ -65,18 +65,18 @@ import {
   useDependency,
   useEvent,
   useObservable
-} from "../chunk-P2DA4KTU.js";
+} from "../chunk-WDOGA3AR.js";
 import {
   FUniver
-} from "../chunk-WRYXDTJA.js";
+} from "../chunk-AOGYP6JO.js";
 import {
   zh_CN_default
-} from "../chunk-ATLWNXMT.js";
+} from "../chunk-4QJTZQOR.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-NUA2Z7NC.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-3BTKBUIM.js";
-import "../chunk-6E3W7VDH.js";
+import "../chunk-W7SCD2GT.js";
 import {
   DeleteTextCommand,
   DocSelectionManagerService,
@@ -84,10 +84,10 @@ import {
   InsertTextCommand,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-3T2J7QKX.js";
+} from "../chunk-QDZX4RLS.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-BPQHTQJ4.js";
+} from "../chunk-XFNITGGT.js";
 import {
   BehaviorSubject,
   DependentOn,
@@ -113,7 +113,7 @@ import {
   ptToPixel,
   tap,
   toDisposable
-} from "../chunk-SAVY66LP.js";
+} from "../chunk-JAWHQSZK.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -1074,7 +1074,7 @@ var package_default = {
     "@univerjs/drawing": "workspace:*",
     "@univerjs/drawing-ui": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "1.33.0",
+    "@univerjs/icons": "1.34.0",
     "@univerjs/ui": "workspace:*"
   },
   devDependencies: {
