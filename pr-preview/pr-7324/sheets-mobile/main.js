@@ -8,7 +8,7 @@ import {
 } from "../chunk-Z4DHKN4F.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO
-} from "../chunk-MUMYUYRA.js";
+} from "../chunk-LSTU6AGW.js";
 import "../chunk-BDCYWOZZ.js";
 import {
   UniverSheetsNumfmtPlugin

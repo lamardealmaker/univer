@@ -19,7 +19,7 @@ import {
 import "../chunk-SBXFG3S4.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO
-} from "../chunk-MUMYUYRA.js";
+} from "../chunk-LSTU6AGW.js";
 import {
   UniverSheetsNotePlugin,
   UniverSheetsTablePlugin
