@@ -1,35 +1,35 @@
 import {
   UniverDocsMentionUIPlugin
-} from "../chunk-R4AW2L5O.js";
-import "../chunk-XSTOKXDW.js";
+} from "../chunk-SNRD2POT.js";
+import "../chunk-5QSIJX65.js";
 import {
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-66P5IFHZ.js";
-import "../chunk-KEZJH4EX.js";
+} from "../chunk-IACBJTRH.js";
+import "../chunk-ERP34QE6.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-M5K4YVQJ.js";
+} from "../chunk-LXJVRJFA.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-L6DUULAW.js";
+} from "../chunk-DBJ5WYJ5.js";
 import {
   InsertDocImageCommand,
   UniverDocsDrawingUIPlugin
-} from "../chunk-I6HSR4RY.js";
+} from "../chunk-HLX37VWQ.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE,
   loadDebuggerLocale
-} from "../chunk-SKIEW3ZJ.js";
-import "../chunk-L5N6EK44.js";
-import "../chunk-ORNCECME.js";
-import "../chunk-5TDXNWMC.js";
-import "../chunk-NG3XLTNK.js";
+} from "../chunk-P4JY35Y6.js";
+import "../chunk-TWZILU24.js";
+import "../chunk-EKVF45AQ.js";
+import "../chunk-WH3B53GK.js";
+import "../chunk-PH4B7R6S.js";
 import {
   UniverDocsDrawingPlugin,
   UniverDrawingPlugin,
   UniverDrawingUIPlugin
-} from "../chunk-K3ZG63JY.js";
+} from "../chunk-QEEPPHQO.js";
 import {
   BulletListCommand,
   CutContentCommand,
@@ -44,7 +44,7 @@ import {
   OrderListCommand,
   UniverDocsUIPlugin,
   getAnchorBounding
-} from "../chunk-NDLZPOUP.js";
+} from "../chunk-MOE32XHT.js";
 import "../chunk-LI6UXASZ.js";
 import {
   ComponentManager,
@@ -65,10 +65,10 @@ import {
   useDependency,
   useEvent,
   useObservable
-} from "../chunk-ISCJ2R73.js";
+} from "../chunk-GAR7NJMN.js";
 import {
   FUniver
-} from "../chunk-AOGYP6JO.js";
+} from "../chunk-5DJSLAB5.js";
 import {
   zh_CN_default
 } from "../chunk-4QJTZQOR.js";
@@ -84,10 +84,10 @@ import {
   InsertTextCommand,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-QDZX4RLS.js";
+} from "../chunk-PP2PHL2R.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-XFNITGGT.js";
+} from "../chunk-W4NVE3XT.js";
 import {
   BehaviorSubject,
   DependentOn,
@@ -113,7 +113,7 @@ import {
   ptToPixel,
   tap,
   toDisposable
-} from "../chunk-JAWHQSZK.js";
+} from "../chunk-RLTCIETE.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -991,7 +991,7 @@ DocQuickInsertUIController = __decorateClass([
 // ../packages/docs-quick-insert-ui/package.json
 var package_default = {
   name: "@univerjs/docs-quick-insert-ui",
-  version: "1.0.0-alpha.6",
+  version: "1.0.0-alpha.7",
   private: false,
   description: "Quick insert UI integration for Univer Docs.",
   author: "DreamNum Co., Ltd. <developer@univer.ai>",

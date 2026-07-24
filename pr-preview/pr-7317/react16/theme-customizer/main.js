@@ -1,52 +1,52 @@
 import {
   UniverSheetsNoteUIPlugin,
   UniverSheetsTableUIPlugin
-} from "../chunk-2FYDDQGY.js";
+} from "../chunk-7DFCGOBE.js";
 import {
   UniverSheetsSortUIPlugin
-} from "../chunk-DQOHAWRI.js";
+} from "../chunk-GU3WC6E3.js";
 import {
   UniverSheetsConditionalFormattingUIPlugin,
   UniverSheetsDataValidationUIPlugin,
   UniverSheetsFilterUIPlugin
-} from "../chunk-5GODAQFI.js";
+} from "../chunk-HA5PNPHG.js";
 import {
   UniverSheetsNumfmtUIPlugin
-} from "../chunk-6OO76ZBJ.js";
+} from "../chunk-ZEDNCQIS.js";
 import {
   en_US_default
 } from "../chunk-LKLAQYD5.js";
 import "../chunk-SBXFG3S4.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO
-} from "../chunk-SKIEW3ZJ.js";
+} from "../chunk-P4JY35Y6.js";
 import {
   UniverSheetsNotePlugin,
   UniverSheetsTablePlugin
-} from "../chunk-3ZLX3JPA.js";
+} from "../chunk-5ZY2KXGP.js";
 import {
   UniverSheetsHyperLinkPlugin,
   UniverSheetsHyperLinkUIPlugin
-} from "../chunk-JKKYTCGC.js";
+} from "../chunk-JHTL6RDA.js";
 import {
   UniverSheetsSortPlugin
-} from "../chunk-WB6AT7VP.js";
+} from "../chunk-GTQCXVS5.js";
 import {
   UniverSheetsConditionalFormattingPlugin
-} from "../chunk-B6BZKVW2.js";
+} from "../chunk-KOMAIIN2.js";
 import {
   UniverSheetsNumfmtPlugin
-} from "../chunk-6HIS66VH.js";
+} from "../chunk-J4EG6VZP.js";
 import {
   UniverSheetsFormulaUIPlugin
-} from "../chunk-NT27HNAM.js";
+} from "../chunk-6YJM6F47.js";
 import {
   UniverSheetsUIPlugin
-} from "../chunk-ORNCECME.js";
+} from "../chunk-EKVF45AQ.js";
 import {
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
-} from "../chunk-NDLZPOUP.js";
+} from "../chunk-MOE32XHT.js";
 import "../chunk-LI6UXASZ.js";
 import {
   Button,
@@ -62,18 +62,18 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "../chunk-ISCJ2R73.js";
+} from "../chunk-GAR7NJMN.js";
 import {
   UniverSheetsFilterPlugin
-} from "../chunk-MTLRNOSN.js";
+} from "../chunk-D5NPODZW.js";
 import {
   UniverDocsPlugin,
   UniverSheetsFormulaPlugin
-} from "../chunk-QDZX4RLS.js";
+} from "../chunk-PP2PHL2R.js";
 import {
   UniverFormulaEnginePlugin,
   UniverSheetsPlugin
-} from "../chunk-XFNITGGT.js";
+} from "../chunk-W4NVE3XT.js";
 import {
   ThemeService,
   Univer,
@@ -83,7 +83,7 @@ import {
   orange_default,
   purple_default,
   red_default
-} from "../chunk-JAWHQSZK.js";
+} from "../chunk-RLTCIETE.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __toESM

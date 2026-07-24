@@ -5,10 +5,10 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-ISCJ2R73.js";
+} from "./chunk-GAR7NJMN.js";
 import {
   default_default
-} from "./chunk-JAWHQSZK.js";
+} from "./chunk-RLTCIETE.js";
 import "./chunk-EQ2B2W73.js";
 import {
   __toESM
@@ -21,7 +21,7 @@ var import_react = __toESM(require_react(), 1);
 var package_default = {
   name: "univer",
   type: "module",
-  version: "1.0.0-alpha.6",
+  version: "1.0.0-alpha.7",
   private: true,
   packageManager: "pnpm@10.33.4",
   author: "DreamNum Co., Ltd. <developer@univer.ai>",
@@ -220,11 +220,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "ff77e80",
+    GIT_COMMIT_HASH: "0373b0a",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "feat/base-attachment-model-clean",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-23T12:24:27.708Z"
+    BUILD_TIME: "2026-07-24T03:23:59.587Z"
   });
 }
 function DemoList({ items }) {
