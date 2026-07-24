@@ -5,10 +5,10 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-GAR7NJMN.js";
+} from "./chunk-7V2XEAWA.js";
 import {
   default_default
-} from "./chunk-RLTCIETE.js";
+} from "./chunk-UEDAY4IO.js";
 import "./chunk-EQ2B2W73.js";
 import {
   __toESM
@@ -97,8 +97,8 @@ var package_default = {
     husky: "^9.1.7",
     "lint-staged": "^17.0.8",
     "posthog-node": "^5.39.4",
-    react: "19.2.7",
-    "react-dom": "19.2.7",
+    react: "19.2.8",
+    "react-dom": "19.2.8",
     serve: "^14.2.6",
     tailwindcss: "3.4.18",
     turbo: "^2.10.4",
@@ -110,8 +110,8 @@ var package_default = {
       "@types/react": "19.2.17",
       "@types/react-dom": "19.2.3",
       "basic-ftp": "5.2.0",
-      react: "19.2.7",
-      "react-dom": "19.2.7"
+      react: "19.2.8",
+      "react-dom": "19.2.8"
     }
   },
   "lint-staged": {
@@ -226,11 +226,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "62acfb4",
+    GIT_COMMIT_HASH: "c64340b",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "codex/fix-doc-insert-image-explicit-size",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-24T04:27:24.702Z"
+    BUILD_TIME: "2026-07-24T08:02:27.152Z"
   });
 }
 function DemoList({ items }) {
