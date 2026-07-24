@@ -2,27 +2,27 @@ import {
   UniverDocsHyperLinkPlugin,
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-RZRHBRGU.js";
+} from "../chunk-HXIGHTE4.js";
 import {
   UniverThreadCommentUIPlugin
-} from "../chunk-AE5LW3MQ.js";
+} from "../chunk-T6ZWLSPM.js";
 import {
   createUniver
-} from "../chunk-WMOYKJ5D.js";
+} from "../chunk-YU6HQYML.js";
 import {
   UniverDocsDrawingUIPlugin
-} from "../chunk-A76BK7ZL.js";
+} from "../chunk-ZC4SCVDZ.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE
-} from "../chunk-CX5NXXAO.js";
-import "../chunk-TMH6CWGL.js";
+} from "../chunk-GKIQ5GWH.js";
+import "../chunk-DGTPWCRW.js";
 import {
   UniverNetworkPlugin
-} from "../chunk-ZG27HWUS.js";
+} from "../chunk-6PQHJUI2.js";
 import {
   FDocument
-} from "../chunk-YTW5N2DC.js";
-import "../chunk-FY5J4V3Q.js";
+} from "../chunk-MZKKB56N.js";
+import "../chunk-OOOLFT6Z.js";
 import {
   DRAWING_IMAGE_HEIGHT_LIMIT,
   DRAWING_IMAGE_WIDTH_LIMIT,
@@ -37,17 +37,17 @@ import {
   UpdateDrawingDocTransformCommand,
   WRAPPING_STYLE_TO_LAYOUT_TYPE,
   getImageSize
-} from "../chunk-AHHRULAS.js";
+} from "../chunk-TKWFBVT2.js";
 import {
   UniverDocsUIPlugin
-} from "../chunk-KKSIKDPM.js";
+} from "../chunk-URJDLYLM.js";
 import "../chunk-LI6UXASZ.js";
 import {
   UniverUIPlugin
-} from "../chunk-7V2XEAWA.js";
+} from "../chunk-KWSI3CYQ.js";
 import {
   FEnum
-} from "../chunk-22BOW4EN.js";
+} from "../chunk-W25FCP6C.js";
 import {
   zh_CN_default as zh_CN_default2,
   zh_CN_default2 as zh_CN_default3,
@@ -62,15 +62,15 @@ import {
   zh_CN_default2 as zh_CN_default5,
   zh_CN_default3 as zh_CN_default7,
   zh_CN_default4 as zh_CN_default9
-} from "../chunk-O2N4YVYW.js";
+} from "../chunk-GNL7T4QS.js";
 import {
   UniverDocsPlugin,
   buildDocTransform,
   docDrawingPositionToTransform
-} from "../chunk-47MGLYD5.js";
+} from "../chunk-FBTXTQTX.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-PW5H4QGM.js";
+} from "../chunk-T3ZF4P6J.js";
 import {
   ICommandService,
   IImageIoService,
@@ -81,7 +81,7 @@ import {
   default_default,
   generateRandomId,
   mergeLocales
-} from "../chunk-UEDAY4IO.js";
+} from "../chunk-MIK4BD7H.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __publicField
@@ -549,8 +549,10 @@ var FDocumentImageMixin = class extends FDocument {
     var _a, _b, _c, _d;
     const unitId = this.getId();
     const imageId = generateRandomId(6);
-    const intrinsicSize = await this._getIntrinsicSize(options.source, options.imageSourceType);
-    const size = resolveImageSize(intrinsicSize, options);
+    const size = options.width != null && options.height != null ? { width: options.width, height: options.height } : resolveImageSize(
+      await this._getIntrinsicSize(options.source, options.imageSourceType),
+      options
+    );
     const defaultTransform = buildDocTransform(size.width, size.height);
     const wrappingStyle = (_a = options.wrappingStyle) != null ? _a : "inline" /* INLINE */;
     const docTransform = {

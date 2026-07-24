@@ -1,24 +1,24 @@
-import "../chunk-V2IKQCG7.js";
+import "../chunk-XYM6QPTX.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-ZZ46XRUH.js";
+} from "../chunk-AJXVOAZD.js";
 import {
   UniverWatermarkPlugin
-} from "../chunk-YBZPRJZX.js";
-import "../chunk-A76BK7ZL.js";
+} from "../chunk-Q5KJPGU6.js";
+import "../chunk-ZC4SCVDZ.js";
 import {
   DEFAULT_SLIDE_DATA,
   ObjectProvider,
   UniverSlidesPlugin,
   loadDebuggerLocale
-} from "../chunk-CX5NXXAO.js";
-import "../chunk-WIWZSY3O.js";
-import "../chunk-253HEH7Q.js";
+} from "../chunk-GKIQ5GWH.js";
+import "../chunk-VJOPFSNF.js";
+import "../chunk-HN6XBBWJ.js";
 import {
   DRAWING_IMAGE_ALLOW_IMAGE_LIST,
   UniverDrawingPlugin,
   getImageSize
-} from "../chunk-AHHRULAS.js";
+} from "../chunk-TKWFBVT2.js";
 import {
   DOCS_COMPONENT_MAIN_LAYER_INDEX,
   DeleteLeftCommand,
@@ -27,7 +27,7 @@ import {
   MoveCursorOperation,
   MoveSelectionOperation,
   UniverDocsUIPlugin
-} from "../chunk-KKSIKDPM.js";
+} from "../chunk-URJDLYLM.js";
 import "../chunk-LI6UXASZ.js";
 import {
   AddImageIcon,
@@ -65,25 +65,25 @@ import {
   scrollbarClassName,
   useDependency,
   useObservable
-} from "../chunk-7V2XEAWA.js";
-import "../chunk-22BOW4EN.js";
+} from "../chunk-KWSI3CYQ.js";
+import "../chunk-W25FCP6C.js";
 import {
   zh_CN_default
-} from "../chunk-QIU43EHK.js";
+} from "../chunk-MSZ7TRT3.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-NUA2Z7NC.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-7RKWV2OH.js";
-import "../chunk-O2N4YVYW.js";
+import "../chunk-GNL7T4QS.js";
 import {
   DocSelectionManagerService,
   DocSkeletonManagerService,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-47MGLYD5.js";
+} from "../chunk-FBTXTQTX.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-PW5H4QGM.js";
+} from "../chunk-T3ZF4P6J.js";
 import {
   BehaviorSubject,
   DEFAULT_EMPTY_DOCUMENT_VALUE,
@@ -135,7 +135,7 @@ import {
   scan,
   takeUntil,
   toDisposable
-} from "../chunk-UEDAY4IO.js";
+} from "../chunk-MIK4BD7H.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
