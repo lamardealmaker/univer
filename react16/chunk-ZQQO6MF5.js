@@ -51,7 +51,7 @@ import {
   SheetDrawingUpdateController,
   transformToAxisAlignPosition,
   transformToDrawingPosition
-} from "./chunk-VJOPFSNF.js";
+} from "./chunk-WGEGFOVE.js";
 import {
   CellAlertManagerService,
   DragManagerService,
@@ -87,7 +87,7 @@ import {
   SetDrawingSelectedOperation,
   getImageSize,
   isGroupableDrawingType
-} from "./chunk-TKWFBVT2.js";
+} from "./chunk-K6KVGUQA.js";
 import {
   AddSheetDataValidationCommand,
   ClearRangeDataValidationCommand,

@@ -12,11 +12,11 @@ import {
 } from "./chunk-ELFYHLUL.js";
 import {
   UniverDebuggerPlugin
-} from "./chunk-5WBBZPMG.js";
+} from "./chunk-DRCU5XZD.js";
 import {
   UniverWatermarkPlugin
 } from "./chunk-Q5KJPGU6.js";
-import "./chunk-ZC4SCVDZ.js";
+import "./chunk-DPDMXMRW.js";
 import {
   loadDebuggerLocale
 } from "./chunk-GKIQ5GWH.js";
@@ -26,9 +26,9 @@ import {
 } from "./chunk-MTPN3FDE.js";
 import "./chunk-OUAO32Y6.js";
 import "./chunk-G64QXZJY.js";
-import "./chunk-VJOPFSNF.js";
+import "./chunk-WGEGFOVE.js";
 import "./chunk-HN6XBBWJ.js";
-import "./chunk-TKWFBVT2.js";
+import "./chunk-K6KVGUQA.js";
 import "./chunk-URJDLYLM.js";
 import "./chunk-KWSI3CYQ.js";
 import "./chunk-DVPFJYEU.js";
