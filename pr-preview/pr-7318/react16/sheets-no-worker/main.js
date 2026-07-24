@@ -1,16 +1,16 @@
-import "../chunk-IY6YOYSH.js";
-import "../chunk-TPDUN34E.js";
+import "../chunk-RPNJXRXR.js";
+import "../chunk-EJVM5IZ2.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-5UPAEG2Q.js";
+} from "../chunk-EHBIDI4H.js";
 import "../chunk-YBZPRJZX.js";
-import "../chunk-A76BK7ZL.js";
+import "../chunk-7DL7W6MO.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO,
   loadDebuggerLocale
-} from "../chunk-CX5NXXAO.js";
-import "../chunk-5N52TNTO.js";
-import "../chunk-5C4OMQRG.js";
+} from "../chunk-AHEK54FL.js";
+import "../chunk-IYTIKNZO.js";
+import "../chunk-HM2XL6KQ.js";
 import "../chunk-25POX3ZX.js";
 import {
   UniverSheetsThreadCommentPlugin
@@ -22,7 +22,7 @@ import {
 } from "../chunk-A7LHZAUZ.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-KFX6SJSW.js";
+} from "../chunk-TQKPNQJQ.js";
 import {
   UniverSheetsSortPlugin
 } from "../chunk-DUVAEDV5.js";
@@ -32,11 +32,11 @@ import {
 import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-XWDCOBVQ.js";
-import "../chunk-GBY6LQAF.js";
-import "../chunk-WIWZSY3O.js";
+import "../chunk-AT46DNCI.js";
+import "../chunk-MIPUQYNP.js";
 import {
   UniverSheetsUIPlugin
-} from "../chunk-253HEH7Q.js";
+} from "../chunk-GFPKZI7F.js";
 import "../chunk-TMH6CWGL.js";
 import {
   UniverNetworkPlugin
@@ -46,7 +46,7 @@ import "../chunk-AHHRULAS.js";
 import {
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
-} from "../chunk-KKSIKDPM.js";
+} from "../chunk-AMXUHILZ.js";
 import "../chunk-LI6UXASZ.js";
 import {
   UniverUIPlugin
@@ -145,13 +145,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-TZLT2Q44.js").then((lazy) => {
+    import("../lazy-LFDAF4PG.js").then((lazy) => {
       const plugins = lazy.default();
       plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-MPBAZBOC.js").then((lazy) => {
+    import("../very-lazy-VGTR7DLP.js").then((lazy) => {
       const plugins = lazy.default();
       plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
     });
