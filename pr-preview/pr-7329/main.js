@@ -5,10 +5,10 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-KWSI3CYQ.js";
+} from "./chunk-XYTTYL24.js";
 import {
   default_default
-} from "./chunk-MIK4BD7H.js";
+} from "./chunk-JD3KJOQJ.js";
 import "./chunk-EQ2B2W73.js";
 import {
   __toESM
@@ -220,11 +220,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "7a6fa98",
+    GIT_COMMIT_HASH: "842eaad",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "feat/docs-latex-facade-api",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-24T12:33:05.335Z"
+    BUILD_TIME: "2026-07-24T14:51:13.113Z"
   });
 }
 function DemoList({ items }) {
