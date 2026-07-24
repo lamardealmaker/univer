@@ -1,35 +1,35 @@
 import {
   UniverDocsMentionUIPlugin
-} from "../chunk-SNRD2POT.js";
+} from "../chunk-Q4EYAZR2.js";
 import "../chunk-5QSIJX65.js";
 import {
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-IACBJTRH.js";
-import "../chunk-ERP34QE6.js";
+} from "../chunk-CRL4BDFW.js";
+import "../chunk-EO5A6IE3.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-LXJVRJFA.js";
+} from "../chunk-2EEER2HU.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-DBJ5WYJ5.js";
 import {
   InsertDocImageCommand,
   UniverDocsDrawingUIPlugin
-} from "../chunk-HLX37VWQ.js";
+} from "../chunk-WWG33TPN.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE,
   loadDebuggerLocale
-} from "../chunk-P4JY35Y6.js";
-import "../chunk-TWZILU24.js";
-import "../chunk-EKVF45AQ.js";
-import "../chunk-WH3B53GK.js";
+} from "../chunk-4OO2EXOI.js";
+import "../chunk-2W4YFPUY.js";
+import "../chunk-LMBWBPMY.js";
+import "../chunk-UOJQIWUM.js";
 import "../chunk-PH4B7R6S.js";
 import {
   UniverDocsDrawingPlugin,
   UniverDrawingPlugin,
   UniverDrawingUIPlugin
-} from "../chunk-QEEPPHQO.js";
+} from "../chunk-K6BRYOOT.js";
 import {
   BulletListCommand,
   CutContentCommand,
@@ -44,7 +44,7 @@ import {
   OrderListCommand,
   UniverDocsUIPlugin,
   getAnchorBounding
-} from "../chunk-MOE32XHT.js";
+} from "../chunk-B5HC4CAF.js";
 import "../chunk-LI6UXASZ.js";
 import {
   ComponentManager,
@@ -71,12 +71,12 @@ import {
 } from "../chunk-5DJSLAB5.js";
 import {
   zh_CN_default
-} from "../chunk-4QJTZQOR.js";
+} from "../chunk-MIV2II4Y.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-NUA2Z7NC.js";
 import "../chunk-SNSWR7JB.js";
-import "../chunk-3BTKBUIM.js";
-import "../chunk-W7SCD2GT.js";
+import "../chunk-7RKWV2OH.js";
+import "../chunk-IO6QFEOM.js";
 import {
   DeleteTextCommand,
   DocSelectionManagerService,
@@ -84,10 +84,10 @@ import {
   InsertTextCommand,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-PP2PHL2R.js";
+} from "../chunk-7OMJQ65A.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-W4NVE3XT.js";
+} from "../chunk-HGZHCRP5.js";
 import {
   BehaviorSubject,
   DependentOn,
