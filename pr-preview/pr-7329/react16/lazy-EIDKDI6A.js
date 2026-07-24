@@ -29,10 +29,10 @@ import {
 } from "./chunk-7WQRXCNR.js";
 import {
   UniverSheetsDrawingUIPlugin
-} from "./chunk-HCYLXCQ7.js";
+} from "./chunk-OQWO2XHG.js";
 import "./chunk-QW62UBVN.js";
 import "./chunk-CGDUFVL4.js";
-import "./chunk-L5BHKJ4J.js";
+import "./chunk-SSGJVDJE.js";
 import "./chunk-6X57MLET.js";
 import "./chunk-XYTTYL24.js";
 import "./chunk-L7QJLVG7.js";
@@ -42,7 +42,7 @@ import "./chunk-JD3KJOQJ.js";
 import "./chunk-EQ2B2W73.js";
 import "./chunk-HECJ2TYE.js";
 
-// src/sheets-no-worker/lazy.ts
+// src/sheets/lazy.ts
 function getLazyPlugins() {
   return [
     [UniverDocsMentionUIPlugin],

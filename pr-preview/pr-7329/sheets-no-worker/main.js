@@ -2,15 +2,15 @@ import "../chunk-BYEPOAQS.js";
 import "../chunk-NAFVM2J5.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-VRIIDXH5.js";
+} from "../chunk-OGUDUHSW.js";
 import "../chunk-7KTPFERY.js";
-import "../chunk-YZ4N7B35.js";
+import "../chunk-J73FLJOH.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO,
   loadDebuggerLocale
 } from "../chunk-EZ3WFAMC.js";
 import "../chunk-C3DY6XDY.js";
-import "../chunk-C5TMDVSZ.js";
+import "../chunk-XF5DF5UD.js";
 import "../chunk-TXVQ4YEB.js";
 import {
   UniverSheetsThreadCommentPlugin
@@ -33,7 +33,7 @@ import {
   UniverSheetsNumfmtPlugin
 } from "../chunk-XFT2KTUQ.js";
 import "../chunk-7WQRXCNR.js";
-import "../chunk-HCYLXCQ7.js";
+import "../chunk-OQWO2XHG.js";
 import {
   UniverSheetsUIPlugin
 } from "../chunk-QW62UBVN.js";
@@ -42,7 +42,7 @@ import {
   UniverNetworkPlugin
 } from "../chunk-WS7MWMTL.js";
 import "../chunk-CGDUFVL4.js";
-import "../chunk-L5BHKJ4J.js";
+import "../chunk-SSGJVDJE.js";
 import {
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
@@ -145,13 +145,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-MJB5PJBM.js").then((lazy) => {
+    import("../lazy-7QZNAPUL.js").then((lazy) => {
       const plugins = lazy.default();
       plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-G3MCNFVX.js").then((lazy) => {
+    import("../very-lazy-KZVYUPB7.js").then((lazy) => {
       const plugins = lazy.default();
       plugins.forEach((p) => univer.registerPlugin(p[0], p[1]));
     });

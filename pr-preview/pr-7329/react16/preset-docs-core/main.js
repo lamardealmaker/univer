@@ -11,7 +11,7 @@ import {
 } from "../chunk-B54QHKEA.js";
 import {
   UniverDocsDrawingUIPlugin
-} from "../chunk-YZ4N7B35.js";
+} from "../chunk-J73FLJOH.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE
 } from "../chunk-EZ3WFAMC.js";
@@ -37,7 +37,7 @@ import {
   UpdateDrawingDocTransformCommand,
   WRAPPING_STYLE_TO_LAYOUT_TYPE,
   getImageSize
-} from "../chunk-L5BHKJ4J.js";
+} from "../chunk-SSGJVDJE.js";
 import {
   UniverDocsUIPlugin
 } from "../chunk-6X57MLET.js";

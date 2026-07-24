@@ -24,7 +24,7 @@ import {
   getDrawingImageAllowSize,
   getDrawingShapeKeyByDrawingSearch,
   getImageSize
-} from "./chunk-L5BHKJ4J.js";
+} from "./chunk-SSGJVDJE.js";
 import {
   DOC_CONTENT_INSERT_MENU_ID,
   DOC_PARAGRAPH_T_INSERT_BELOW_MENU_ID,

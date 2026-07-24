@@ -226,11 +226,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "b26de9b",
+    GIT_COMMIT_HASH: "65617c7",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "feat/docs-latex-facade-api",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-24T15:41:24.727Z"
+    BUILD_TIME: "2026-07-24T16:33:03.229Z"
   });
 }
 function DemoList({ items }) {
