@@ -41,6 +41,7 @@ import {
   getParagraphContentStartOffset,
   getRichTextEditPath,
   getSectionHeaderFooterReferenceKey,
+  regexp,
   resolveSectionHeaderFooterReference
 } from "./chunk-JD3KJOQJ.js";
 import {
@@ -511,28 +512,21 @@ var FDocumentParagraph = class extends FBaseInitialable {
     if (text.length === 0) {
       throw new TypeError("Text to find must not be empty.");
     }
-    const paragraphText = this.getText();
     const matchCase = (_a = options.matchCase) != null ? _a : true;
-    const source = matchCase ? paragraphText : paragraphText.toLocaleLowerCase();
-    const query = matchCase ? text : text.toLocaleLowerCase();
+    const paragraphText = this.getText();
+    const matcher = regexp.createLiteralRegExp(text, matchCase ? "gu" : "giu");
     const { startOffset } = this.getInfo();
     const matches = [];
-    let relativeOffset = 0;
-    while (relativeOffset <= source.length - query.length) {
-      const matchOffset = source.indexOf(query, relativeOffset);
-      if (matchOffset < 0) {
-        break;
-      }
-      const matchStartOffset = startOffset + matchOffset;
+    for (const match of paragraphText.matchAll(matcher)) {
+      const matchStartOffset = startOffset + match.index;
       matches.push(this._injector.createInstance(
         FDocumentTextRange,
         this._document,
         matchStartOffset,
-        matchStartOffset + text.length,
+        matchStartOffset + match[0].length,
         this._segmentId,
         this._injector
       ));
-      relativeOffset = matchOffset + query.length;
     }
     return matches;
   }

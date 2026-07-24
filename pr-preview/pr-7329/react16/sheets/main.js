@@ -10,7 +10,7 @@ import {
 import "../chunk-TZMOXHNC.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-XHHNC4C4.js";
+} from "../chunk-HDNS6W35.js";
 import "../chunk-7KTPFERY.js";
 import "../chunk-YZ4N7B35.js";
 import {
@@ -53,7 +53,7 @@ import "../chunk-G7TV6WLP.js";
 import {
   UniverNetworkPlugin
 } from "../chunk-WS7MWMTL.js";
-import "../chunk-7X6EDYJB.js";
+import "../chunk-J2PBZ5V6.js";
 import "../chunk-CGDUFVL4.js";
 import {
   getDrawingShapeKeyByDrawingSearch
@@ -736,7 +736,7 @@ function createNewInstance() {
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-PEDGOI7S.js").then((lazy) => {
+    import("../very-lazy-L6SCRWSH.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
