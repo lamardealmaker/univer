@@ -1663,57 +1663,82 @@ function executeMutations(mutations, commandService) {
   return true;
 }
 
-// ../packages/docs-drawing/src/services/doc-drawing.service.ts
-var DocDrawingService = class extends UnitDrawingService {
-};
-var IDocDrawingService = createIdentifier("univer.doc.plugin.doc-drawing.service");
-
 // ../packages/docs-drawing/src/commands/commands/set-drawing-arrange.command.ts
+var DRAWINGS_ORDER_KEY = "drawingsOrder";
+function getArrangedDrawingOrder(drawingOrder, drawingIds, arrangeType) {
+  const selectedDrawingIds = new Set(drawingIds.filter((drawingId) => drawingOrder.includes(drawingId)));
+  const arrangedDrawingOrder = [...drawingOrder];
+  if (selectedDrawingIds.size === 0) {
+    return arrangedDrawingOrder;
+  }
+  if (arrangeType === 0 /* forward */) {
+    for (let index = arrangedDrawingOrder.length - 2; index >= 0; index--) {
+      if (selectedDrawingIds.has(arrangedDrawingOrder[index]) && !selectedDrawingIds.has(arrangedDrawingOrder[index + 1])) {
+        [arrangedDrawingOrder[index], arrangedDrawingOrder[index + 1]] = [arrangedDrawingOrder[index + 1], arrangedDrawingOrder[index]];
+      }
+    }
+  } else if (arrangeType === 1 /* backward */) {
+    for (let index = 1; index < arrangedDrawingOrder.length; index++) {
+      if (selectedDrawingIds.has(arrangedDrawingOrder[index]) && !selectedDrawingIds.has(arrangedDrawingOrder[index - 1])) {
+        [arrangedDrawingOrder[index], arrangedDrawingOrder[index - 1]] = [arrangedDrawingOrder[index - 1], arrangedDrawingOrder[index]];
+      }
+    }
+  } else if (arrangeType === 2 /* front */ || arrangeType === 3 /* back */) {
+    const selected = arrangedDrawingOrder.filter((drawingId) => selectedDrawingIds.has(drawingId));
+    const unselected = arrangedDrawingOrder.filter((drawingId) => !selectedDrawingIds.has(drawingId));
+    return arrangeType === 2 /* front */ ? [...unselected, ...selected] : [...selected, ...unselected];
+  }
+  return arrangedDrawingOrder;
+}
+function createDrawingOrderActions(drawingOrder, arrangedDrawingOrder) {
+  const jsonX = JSONX.getInstance();
+  const workingDrawingOrder = [...drawingOrder];
+  const rawActions = [];
+  for (let targetIndex = 0; targetIndex < arrangedDrawingOrder.length; targetIndex++) {
+    const drawingId = arrangedDrawingOrder[targetIndex];
+    const currentIndex = workingDrawingOrder.indexOf(drawingId);
+    if (currentIndex < 0 || currentIndex === targetIndex) {
+      continue;
+    }
+    const action = jsonX.moveOp(
+      [DRAWINGS_ORDER_KEY, currentIndex],
+      [DRAWINGS_ORDER_KEY, targetIndex]
+    );
+    if (action) {
+      rawActions.push(action);
+    }
+    workingDrawingOrder.splice(currentIndex, 1);
+    workingDrawingOrder.splice(targetIndex, 0, drawingId);
+  }
+  return rawActions.reduce(
+    (actions, action) => JSONX.compose(actions, action),
+    null
+  );
+}
 var SetDocDrawingArrangeCommand = {
   id: "doc.command.set-drawing-arrange",
   type: 0 /* COMMAND */,
   handler: (accessor, params) => {
     const commandService = accessor.get(ICommandService);
-    const docDrawingService = accessor.get(IDocDrawingService);
     if (params == null) {
       return false;
     }
-    const { unitId, subUnitId, drawingIds, arrangeType } = params;
-    const drawingOrderMapParam = { unitId, subUnitId, drawingIds };
-    let jsonOp;
-    if (arrangeType === 0 /* forward */) {
-      jsonOp = docDrawingService.getForwardDrawingsOp(drawingOrderMapParam);
-    } else if (arrangeType === 1 /* backward */) {
-      jsonOp = docDrawingService.getBackwardDrawingOp(drawingOrderMapParam);
-    } else if (arrangeType === 2 /* front */) {
-      jsonOp = docDrawingService.getFrontDrawingsOp(drawingOrderMapParam);
-    } else if (arrangeType === 3 /* back */) {
-      jsonOp = docDrawingService.getBackDrawingsOp(drawingOrderMapParam);
-    }
-    if (jsonOp == null) {
+    const { unitId, drawingIds, arrangeType } = params;
+    const documentDataModel = accessor.get(IUniverInstanceService).getUnit(unitId, 1 /* UNIVER_DOC */);
+    const drawingOrder = documentDataModel == null ? void 0 : documentDataModel.getDrawingsOrder();
+    if (!drawingOrder) {
       return false;
     }
-    const { redo } = jsonOp;
-    if (redo == null) {
+    const arrangedDrawingOrder = getArrangedDrawingOrder(drawingOrder, drawingIds, arrangeType);
+    const actions = createDrawingOrderActions(drawingOrder, arrangedDrawingOrder);
+    if (JSONX.isNoop(actions)) {
       return false;
     }
-    const rawActions = [];
-    let redoCopy = Tools.deepClone(redo);
-    redoCopy = redoCopy.slice(3);
-    redoCopy.unshift("drawingsOrder");
-    rawActions.push(redoCopy);
-    const doMutation = {
-      id: RichTextEditingMutation.id,
-      params: {
-        unitId,
-        actions: [],
-        textRanges: null
-      }
-    };
-    doMutation.params.actions = rawActions.reduce((acc, cur) => {
-      return JSONX.compose(acc, cur);
-    }, null);
-    const result = commandService.syncExecuteCommand(doMutation.id, doMutation.params);
+    const result = commandService.syncExecuteCommand(RichTextEditingMutation.id, {
+      unitId,
+      actions,
+      textRanges: null
+    });
     return Boolean(result);
   }
 };
@@ -1829,6 +1854,11 @@ var UpdateDocDrawingWrappingStyleCommand = {
   }
 };
 
+// ../packages/docs-drawing/src/services/doc-drawing.service.ts
+var DocDrawingService = class extends UnitDrawingService {
+};
+var IDocDrawingService = createIdentifier("univer.doc.plugin.doc-drawing.service");
+
 // ../packages/docs-drawing/src/controllers/doc-drawing.controller.ts
 var DOCS_DRAWING_PLUGIN = "DOC_DRAWING_PLUGIN";
 function getDocDrawingRenderOrder(order, drawings = {}) {
@@ -1844,19 +1874,6 @@ function getDocDrawingRenderOrder(order, drawings = {}) {
 function isDocDrawingBehindText(drawing) {
   return (drawing == null ? void 0 : drawing.layoutType) === 1 /* WRAP_NONE */ && drawing.behindDoc === 1 /* TRUE */;
 }
-var DOC_DRAWING_SNAPSHOT_KEYS = ["drawings", "drawingsOrder"];
-function hasDocDrawingAction(action) {
-  if (!Array.isArray(action)) {
-    return false;
-  }
-  if (DOC_DRAWING_SNAPSHOT_KEYS.some((key) => key === action[0])) {
-    return true;
-  }
-  return action.some(hasDocDrawingAction);
-}
-function isRichTextEditingMutationParams(params) {
-  return params != null && "unitId" in params && typeof params.unitId === "string" && "actions" in params;
-}
 var DocDrawingController = class extends Disposable {
   constructor(_docDrawingService, _drawingManagerService, _resourceManagerService, _univerInstanceService, _commandService) {
     super();
@@ -1869,18 +1886,7 @@ var DocDrawingController = class extends Disposable {
   }
   _init() {
     this._initSnapshot();
-    this._initDrawingDataSync();
     this._initCommands();
-  }
-  _initDrawingDataSync() {
-    this.disposeWithMe(
-      this._commandService.onCommandExecuted((command) => {
-        if (command.id !== RichTextEditingMutation.id || !isRichTextEditingMutationParams(command.params) || !hasDocDrawingAction(command.params.actions)) {
-          return;
-        }
-        this.loadDrawingDataForUnit(command.params.unitId);
-      })
-    );
   }
   _initSnapshot() {
     const toJson = (unitId) => {
@@ -5722,6 +5728,11 @@ export {
   InsertDocDrawingCommand,
   IDocDrawingAdapterService,
   RemoveDocDrawingCommand,
+  SetDocDrawingArrangeCommand,
+  UpdateDrawingDocTransformCommand,
+  TextWrappingStyle,
+  WRAPPING_STYLE_TO_LAYOUT_TYPE,
+  UpdateDocDrawingWrappingStyleCommand,
   DRAWING_IMAGE_WIDTH_LIMIT,
   DRAWING_IMAGE_HEIGHT_LIMIT,
   DRAWING_IMAGE_COUNT_LIMIT,
@@ -5737,11 +5748,6 @@ export {
   getImageSize,
   resolveDrawingRotateEnabled,
   IDocDrawingService,
-  SetDocDrawingArrangeCommand,
-  UpdateDrawingDocTransformCommand,
-  TextWrappingStyle,
-  WRAPPING_STYLE_TO_LAYOUT_TYPE,
-  UpdateDocDrawingWrappingStyleCommand,
   getDocDrawingRenderOrder,
   DocDrawingController,
   UniverDocsDrawingPlugin,

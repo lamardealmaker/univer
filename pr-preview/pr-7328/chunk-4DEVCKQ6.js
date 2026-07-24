@@ -60,7 +60,7 @@ import {
 import {
   UniverSheetsDrawingPlugin,
   UniverSheetsDrawingUIPlugin
-} from "./chunk-BTL2EPXY.js";
+} from "./chunk-WGEGFOVE.js";
 import {
   UniverSheetsUIPlugin
 } from "./chunk-HN6XBBWJ.js";
@@ -71,7 +71,7 @@ import {
   UniverDocsDrawingPlugin,
   UniverDrawingPlugin,
   UniverDrawingUIPlugin
-} from "./chunk-EFWHF55A.js";
+} from "./chunk-K6KVGUQA.js";
 import {
   UniverDataValidationPlugin,
   UniverDocsUIPlugin,

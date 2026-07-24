@@ -40,7 +40,7 @@ import {
   getOrCreateDrawingCopyPlan,
   insertGroupObject,
   resolveDrawingRotateEnabled
-} from "./chunk-EFWHF55A.js";
+} from "./chunk-K6KVGUQA.js";
 import {
   InnerPasteCommand
 } from "./chunk-URJDLYLM.js";
