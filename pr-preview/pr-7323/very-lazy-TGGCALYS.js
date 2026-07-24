@@ -12,7 +12,7 @@ import {
 } from "./chunk-TPDUN34E.js";
 import {
   UniverDebuggerPlugin
-} from "./chunk-GKZRNYS3.js";
+} from "./chunk-L3N6GUEG.js";
 import {
   UniverWatermarkPlugin
 } from "./chunk-YBZPRJZX.js";
@@ -23,9 +23,9 @@ import {
 import "./chunk-BPQPEARQ.js";
 import {
   UniverSheetsHyperLinkUIPlugin
-} from "./chunk-PRHHO7JV.js";
+} from "./chunk-KFX6SJSW.js";
 import "./chunk-DUVAEDV5.js";
-import "./chunk-JPKIWWZY.js";
+import "./chunk-GBY6LQAF.js";
 import "./chunk-WIWZSY3O.js";
 import "./chunk-253HEH7Q.js";
 import "./chunk-AHHRULAS.js";

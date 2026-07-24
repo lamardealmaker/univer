@@ -35,7 +35,7 @@ import {
 } from "./chunk-DUVAEDV5.js";
 import {
   RangeSelector
-} from "./chunk-JPKIWWZY.js";
+} from "./chunk-GBY6LQAF.js";
 import {
   CellPopupManagerService,
   ExpandSelectionCommand,
