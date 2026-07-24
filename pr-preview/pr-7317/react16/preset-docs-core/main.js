@@ -2,27 +2,27 @@ import {
   UniverDocsHyperLinkPlugin,
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-IACBJTRH.js";
+} from "../chunk-RZRHBRGU.js";
 import {
   UniverThreadCommentUIPlugin
-} from "../chunk-ERP34QE6.js";
+} from "../chunk-AE5LW3MQ.js";
 import {
   createUniver
-} from "../chunk-I54FJSJ3.js";
+} from "../chunk-WMOYKJ5D.js";
 import {
   UniverDocsDrawingUIPlugin
-} from "../chunk-HLX37VWQ.js";
+} from "../chunk-A76BK7ZL.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE
-} from "../chunk-P4JY35Y6.js";
-import "../chunk-PO5ZGHQT.js";
+} from "../chunk-CX5NXXAO.js";
+import "../chunk-TMH6CWGL.js";
 import {
   UniverNetworkPlugin
-} from "../chunk-SYM4OOBL.js";
+} from "../chunk-ZG27HWUS.js";
 import {
   FDocument
-} from "../chunk-WH3B53GK.js";
-import "../chunk-PH4B7R6S.js";
+} from "../chunk-YTW5N2DC.js";
+import "../chunk-FY5J4V3Q.js";
 import {
   DRAWING_IMAGE_HEIGHT_LIMIT,
   DRAWING_IMAGE_WIDTH_LIMIT,
@@ -37,17 +37,17 @@ import {
   UpdateDrawingDocTransformCommand,
   WRAPPING_STYLE_TO_LAYOUT_TYPE,
   getImageSize
-} from "../chunk-QEEPPHQO.js";
+} from "../chunk-AHHRULAS.js";
 import {
   UniverDocsUIPlugin
-} from "../chunk-MOE32XHT.js";
+} from "../chunk-KKSIKDPM.js";
 import "../chunk-LI6UXASZ.js";
 import {
   UniverUIPlugin
-} from "../chunk-GAR7NJMN.js";
+} from "../chunk-7V2XEAWA.js";
 import {
   FEnum
-} from "../chunk-5DJSLAB5.js";
+} from "../chunk-22BOW4EN.js";
 import {
   zh_CN_default as zh_CN_default2,
   zh_CN_default2 as zh_CN_default3,
@@ -55,21 +55,22 @@ import {
 } from "../chunk-DBRQB4K6.js";
 import {
   zh_CN_default as zh_CN_default6,
-  zh_CN_default2 as zh_CN_default7
+  zh_CN_default2 as zh_CN_default8
 } from "../chunk-SNSWR7JB.js";
 import {
   zh_CN_default,
   zh_CN_default2 as zh_CN_default5,
-  zh_CN_default3 as zh_CN_default8
-} from "../chunk-W7SCD2GT.js";
+  zh_CN_default3 as zh_CN_default7,
+  zh_CN_default4 as zh_CN_default9
+} from "../chunk-O2N4YVYW.js";
 import {
   UniverDocsPlugin,
   buildDocTransform,
   docDrawingPositionToTransform
-} from "../chunk-PP2PHL2R.js";
+} from "../chunk-47MGLYD5.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-W4NVE3XT.js";
+} from "../chunk-PW5H4QGM.js";
 import {
   ICommandService,
   IImageIoService,
@@ -80,7 +81,7 @@ import {
   default_default,
   generateRandomId,
   mergeLocales
-} from "../chunk-RLTCIETE.js";
+} from "../chunk-UEDAY4IO.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __publicField
@@ -120,11 +121,12 @@ function UniverDocsCorePreset(config = {}) {
 }
 
 // ../presets/packages/preset-docs-core/src/locales/zh-CN.ts
-var zh_CN_default9 = Object.assign(
+var zh_CN_default10 = Object.assign(
   {},
   zh_CN_default,
   zh_CN_default5,
-  zh_CN_default8
+  zh_CN_default7,
+  zh_CN_default9
 );
 
 // ../packages/docs-drawing/src/facade/f-document-image.ts
@@ -547,8 +549,10 @@ var FDocumentImageMixin = class extends FDocument {
     var _a, _b, _c, _d;
     const unitId = this.getId();
     const imageId = generateRandomId(6);
-    const intrinsicSize = await this._getIntrinsicSize(options.source, options.imageSourceType);
-    const size = resolveImageSize(intrinsicSize, options);
+    const size = options.width != null && options.height != null ? { width: options.width, height: options.height } : resolveImageSize(
+      await this._getIntrinsicSize(options.source, options.imageSourceType),
+      options
+    );
     const defaultTransform = buildDocTransform(size.width, size.height);
     const wrappingStyle = (_a = options.wrappingStyle) != null ? _a : "inline" /* INLINE */;
     const docTransform = {
@@ -670,7 +674,7 @@ function UniverDocsDrawingPreset(config = {}) {
 }
 
 // ../presets/packages/preset-docs-drawing/src/locales/zh-CN.ts
-var zh_CN_default10 = Object.assign(
+var zh_CN_default11 = Object.assign(
   {},
   zh_CN_default2,
   zh_CN_default6
@@ -687,7 +691,7 @@ function UniverDocsHyperLinkPreset() {
 }
 
 // ../presets/packages/preset-docs-hyper-link/src/locales/zh-CN.ts
-var zh_CN_default11 = Object.assign(
+var zh_CN_default12 = Object.assign(
   {},
   zh_CN_default3
 );
@@ -702,10 +706,10 @@ function UniverDocsThreadCommentPreset(_config = {}) {
 }
 
 // ../presets/packages/preset-docs-thread-comment/src/locales/zh-CN.ts
-var zh_CN_default12 = Object.assign(
+var zh_CN_default13 = Object.assign(
   {},
   zh_CN_default4,
-  zh_CN_default7
+  zh_CN_default8
 );
 
 // src/preset-docs-core/main.ts
@@ -713,10 +717,10 @@ var { univer, univerAPI } = createUniver({
   locale: "zhCN" /* ZH_CN */,
   locales: {
     ["zhCN" /* ZH_CN */]: mergeLocales(
-      zh_CN_default9,
       zh_CN_default10,
       zh_CN_default11,
-      zh_CN_default12
+      zh_CN_default12,
+      zh_CN_default13
     )
   },
   theme: default_default,

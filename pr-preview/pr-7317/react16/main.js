@@ -5,10 +5,10 @@ import {
   render,
   require_jsx_runtime,
   require_react
-} from "./chunk-GAR7NJMN.js";
+} from "./chunk-7V2XEAWA.js";
 import {
   default_default
-} from "./chunk-RLTCIETE.js";
+} from "./chunk-UEDAY4IO.js";
 import "./chunk-EQ2B2W73.js";
 import {
   __toESM
@@ -97,8 +97,8 @@ var package_default = {
     husky: "^9.1.7",
     "lint-staged": "^17.0.8",
     "posthog-node": "^5.39.4",
-    react: "19.2.7",
-    "react-dom": "19.2.7",
+    react: "19.2.8",
+    "react-dom": "19.2.8",
     serve: "^14.2.6",
     tailwindcss: "3.4.18",
     turbo: "^2.10.4",
@@ -110,8 +110,8 @@ var package_default = {
       "@types/react": "19.2.17",
       "@types/react-dom": "19.2.3",
       "basic-ftp": "5.2.0",
-      react: "19.2.7",
-      "react-dom": "19.2.7"
+      react: "19.2.8",
+      "react-dom": "19.2.8"
     }
   },
   "lint-staged": {
@@ -226,11 +226,11 @@ if (true) {
     // eslint-disable-next-line node/prefer-global/process
     NODE_ENV: "production",
     // eslint-disable-next-line node/prefer-global/process
-    GIT_COMMIT_HASH: "0373b0a",
+    GIT_COMMIT_HASH: "04f8b01",
     // eslint-disable-next-line node/prefer-global/process
     GIT_REF_NAME: "feat/base-attachment-model-clean",
     // eslint-disable-next-line node/prefer-global/process
-    BUILD_TIME: "2026-07-24T03:24:35.517Z"
+    BUILD_TIME: "2026-07-24T08:33:50.013Z"
   });
 }
 function DemoList({ items }) {
