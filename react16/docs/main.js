@@ -1,35 +1,35 @@
 import {
   UniverDocsMentionUIPlugin
-} from "../chunk-Q4EYAZR2.js";
+} from "../chunk-GW7H74HG.js";
 import "../chunk-5QSIJX65.js";
 import {
   UniverDocsHyperLinkUIPlugin,
   UniverDocsThreadCommentUIPlugin
-} from "../chunk-CRL4BDFW.js";
-import "../chunk-EO5A6IE3.js";
+} from "../chunk-ZLRX547G.js";
+import "../chunk-KD7DYNL4.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-6T3XLOG5.js";
+} from "../chunk-3VFCAALO.js";
 import {
   UniverWatermarkPlugin
 } from "../chunk-DBJ5WYJ5.js";
 import {
   InsertDocImageCommand,
   UniverDocsDrawingUIPlugin
-} from "../chunk-WWG33TPN.js";
+} from "../chunk-XMIHXRTA.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE,
   loadDebuggerLocale
-} from "../chunk-4OO2EXOI.js";
-import "../chunk-2W4YFPUY.js";
-import "../chunk-LMBWBPMY.js";
-import "../chunk-UOJQIWUM.js";
+} from "../chunk-COQ3A3WR.js";
+import "../chunk-EC5SJWCG.js";
+import "../chunk-GQSEG75L.js";
+import "../chunk-IX7XWJRZ.js";
 import "../chunk-PH4B7R6S.js";
 import {
   UniverDocsDrawingPlugin,
   UniverDrawingPlugin,
   UniverDrawingUIPlugin
-} from "../chunk-K6BRYOOT.js";
+} from "../chunk-W6GY7QZO.js";
 import {
   BulletListCommand,
   CutContentCommand,
@@ -44,7 +44,7 @@ import {
   OrderListCommand,
   UniverDocsUIPlugin,
   getAnchorBounding
-} from "../chunk-B5HC4CAF.js";
+} from "../chunk-LVZALIE5.js";
 import "../chunk-LI6UXASZ.js";
 import {
   ComponentManager,
@@ -71,12 +71,12 @@ import {
 } from "../chunk-5DJSLAB5.js";
 import {
   zh_CN_default
-} from "../chunk-MIV2II4Y.js";
+} from "../chunk-QIU43EHK.js";
 import "../chunk-DBRQB4K6.js";
 import "../chunk-NUA2Z7NC.js";
 import "../chunk-SNSWR7JB.js";
 import "../chunk-7RKWV2OH.js";
-import "../chunk-IO6QFEOM.js";
+import "../chunk-O2N4YVYW.js";
 import {
   DeleteTextCommand,
   DocSelectionManagerService,
@@ -84,10 +84,10 @@ import {
   InsertTextCommand,
   RichTextEditingMutation,
   UniverDocsPlugin
-} from "../chunk-7OMJQ65A.js";
+} from "../chunk-DPZUWCWC.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-HGZHCRP5.js";
+} from "../chunk-X3HPZGMT.js";
 import {
   BehaviorSubject,
   DependentOn,

@@ -2,7 +2,7 @@ import {
   UniverFormulaEnginePlugin,
   UniverRPCWorkerThreadPlugin,
   UniverSheetsPlugin
-} from "../chunk-HGZHCRP5.js";
+} from "../chunk-X3HPZGMT.js";
 import {
   Univer
 } from "../chunk-RLTCIETE.js";
