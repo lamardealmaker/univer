@@ -74,6 +74,7 @@ import { IShortcutService, ShortcutService } from './services/shortcut/shortcut.
 import { DesktopSidebarService } from './services/sidebar/desktop-sidebar.service';
 import { ISidebarService } from './services/sidebar/sidebar.service';
 import { ThemeSwitcherService } from './services/theme-switcher/theme-switcher.service';
+import { UndoRedoGroupService } from './services/undo-redo/undo-redo-group.service';
 import { IWorkbenchService, WorkbenchService } from './services/workbench/workbench.service';
 
 export const DISABLE_AUTO_FOCUS_KEY = 'DISABLE_AUTO_FOCUS';
@@ -119,6 +120,7 @@ export class UniverUIPlugin extends Plugin {
             [IconManager],
             [ComponentsController],
             [ThemeSwitcherService],
+            [UndoRedoGroupService],
             [ZIndexManager],
             [ShortcutPanelService],
             [IUIPartsService, { useClass: UIPartsService }],
